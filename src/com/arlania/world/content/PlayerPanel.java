@@ -15,8 +15,8 @@ public class PlayerPanel {
 
 		int counter = 39159;
 		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Droprates");
-		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Droprate: ");
-		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Double drop chance: ");
+		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Droprate: "+player.getDropRate());
+		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Double drop chance: "+player.getDoubleDropRate());
 		player.getPacketSender().sendString(counter++, "");
 
 		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Tools");

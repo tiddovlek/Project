@@ -863,6 +863,12 @@ private int npcKills;
     public void setDoubleDropRate(double doubleDropRate) {
         this.doubleDropRate = doubleDropRate;
     }
+    public double getDropRate() {
+        return droprate;
+    }
+    public double getDoubleDropRate() {
+      return doubleDropRate;
+    }
 
     public void incrementDragonFireImmunity(int amount) {
         dragonFireImmunity += amount;

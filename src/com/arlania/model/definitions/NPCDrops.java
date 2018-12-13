@@ -409,6 +409,12 @@ public class NPCDrops {
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
 			drBoost += 2;
 		}
+		if(p.getRights() == PlayerRights.PLAYER) {
+			drBoost = 2;
+		}
+		if(p.getRights() == PlayerRights.OWNER) {
+			drBoost = 100;
+		}
 
 		p.setDoubleDropRate(drBoost);
 

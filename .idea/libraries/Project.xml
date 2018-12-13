@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Project">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AccountTool.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Economy checker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
