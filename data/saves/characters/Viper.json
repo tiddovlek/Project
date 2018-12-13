@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 3882500,
+  "total-play-time-ms": 6320301,
   "username": "Viper",
   "password": "1338wc",
   "email": "null",
@@ -10,8 +10,8 @@
   "LiquidX-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 2676,
-    "y": 3715,
+    "x": 2669,
+    "y": 3717,
     "z": 0
   },
   "online-status": "ON",
@@ -20,13 +20,13 @@
   "donated": 0,
   "pvm-rank": "BRONZE",
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 48177922,
+  "total-gained-exp": 58629073,
   "prestige-points": 0,
   "achievement-points": 3,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 1087,
-  "total-loyalty-points": 1087.0,
+  "loyalty-points": 1535,
+  "total-loyalty-points": 1535.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -50,7 +50,7 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 3080406,
+  "last-veng": 3648405,
   "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -198,7 +198,7 @@
       99,
       99,
       99,
-      519,
+      522,
       1,
       10,
       1,
@@ -251,8 +251,8 @@
     "experience": [
       1000312828,
       1000225888,
-      1028468526,
-      1018611258,
+      1034834218,
+      1022696717,
       1000000000,
       1000000000,
       1000000000,
@@ -574,52 +574,62 @@
   ],
   "kills": [
     {
-      "runningTotal": 32,
+      "runningTotal": 39,
       "npcId": 1265,
       "npcName": "Yoda",
-      "amount": 32,
+      "amount": 39,
       "boss": true
     }
   ],
   "drops": [
     {
       "item": 21004,
-      "amount": 15,
+      "amount": 20,
       "rareDrop": true
     },
     {
       "item": 1115,
-      "amount": 6,
+      "amount": 10,
       "rareDrop": true
     },
     {
       "item": 21011,
-      "amount": 2,
+      "amount": 7,
       "rareDrop": true
     },
     {
       "item": 1067,
-      "amount": 3,
+      "amount": 7,
       "rareDrop": true
     },
     {
       "item": 21006,
-      "amount": 18,
+      "amount": 21,
       "rareDrop": false
     },
     {
       "item": 21007,
-      "amount": 17,
+      "amount": 20,
       "rareDrop": false
     },
     {
       "item": 1553,
-      "amount": 4,
+      "amount": 8,
       "rareDrop": false
     },
     {
       "item": 21003,
-      "amount": 1,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21002,
+      "amount": 5,
+      "rareDrop": true
+    },
+    {
+      "item": 21012,
+      "amount": 4,
       "rareDrop": true
     }
   ],
@@ -769,14 +779,14 @@
     0,
     0,
     0,
-    189052,
+    230055,
     0,
     0,
     0,
     0,
     0,
-    32,
-    32,
+    39,
+    39,
     0,
     0
   ],

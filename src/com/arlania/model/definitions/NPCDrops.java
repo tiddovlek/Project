@@ -325,12 +325,12 @@ public class NPCDrops {
 			
 		}
 
-		if(Misc.inclusiveRandom(1,0) == 1) {
+		if(Misc.inclusiveRandom(1,100) == 1) {
 			drop(p, new Item(21006, 1), npc, npc.getPosition(), false);
 			World.sendMessage("<shad=0>@bla@[@whi@Mythical@bla@] <shad=0>@whi@"+ p.getUsername()
 					+ "@bla@ has just received <shad=0>@whi@ a Mythical hilt shard@bla@ from <shad=0>@whi@@bla@"+ npc.getDefinition().getName());
 		}
-		if(Misc.inclusiveRandom(1,0) == 1) {
+		if(Misc.inclusiveRandom(1,100) == 1) {
 			drop(p, new Item(21007, 1), npc, npc.getPosition(), false);
 			World.sendMessage("<shad=0>@bla@[@whi@Mythical@bla@] <shad=0>@whi@"+ p.getUsername()
 					+ "@bla@ has just received <shad=0>@whi@ a Mythical edge shard@bla@ from <shad=0>@whi@@bla@"+ npc.getDefinition().getName());
@@ -388,23 +388,17 @@ public class NPCDrops {
 	public static boolean shouldDrop(Player p, boolean[] b, DropChance chance,
 			boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
 		double random = chance.getRandom(); //pull the chance from the table
-		 double drBoost = 0;
-
-		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
-			drBoost += 2;
-		}
+		 double drBoost = NPCDrops.getDroprate(p);
 
 		p.setDroprate(drBoost);
+		random = (int)random * ((100-drBoost)/100);
 
-		random = random * ((100-drBoost)/100);
-
-		return !b[chance.ordinal()] && Misc.getRandom((int) random) == 1; //return true if random between 0 & table value is 1.
+		return !b[chance.ordinal()] && Misc.getRandom((int) random) == 0; //return true if random between 0 & table value is 1.
 	}
 
-	public static boolean shouldDoubleDrop(Player p, boolean[] b, DropChance chance,
-									 boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
-		double random = 100; //pull the chance from the table
+	public static double getDoubleDr(Player p){
 		double drBoost = 0;
+		final boolean ringOfWealth = p.getEquipment().get(Equipment.RING_SLOT).getId() == 2572;
 
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
 			drBoost += 2;
@@ -415,12 +409,33 @@ public class NPCDrops {
 		if(p.getRights() == PlayerRights.OWNER) {
 			drBoost = 100;
 		}
+		return drBoost;
+	}
+	public static double getDroprate(Player p){
+		double drBoost = 0;
+		final boolean ringOfWealth = p.getEquipment().get(Equipment.RING_SLOT).getId() == 2572;
+
+		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 2;
+		}
+		if(p.getRights() == PlayerRights.PLAYER) {
+			drBoost = 2;
+		}
+		if(p.getRights() == PlayerRights.OWNER) {
+			drBoost = 100;
+		}
+		return drBoost;
+	}
+
+	public static boolean shouldDoubleDrop(Player p, boolean[] b, DropChance chance,
+									 boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
+		double random = 100; //pull the chance from the table
+		double drBoost = NPCDrops.getDoubleDr(p);
 
 		p.setDoubleDropRate(drBoost);
-
 		random = random * ((100-drBoost)/100);
 
-		return !b[chance.ordinal()] && Misc.getRandom((int) random) == 1; //return true if random between 0 & table value is 1.
+		return !b[chance.ordinal()] && Misc.getRandom((int) random) == 0; //return true if random between 0 & table value is 1.
 	}
 	
 	public static boolean shouldRecieveDrop(boolean[] b, WellChance chance,

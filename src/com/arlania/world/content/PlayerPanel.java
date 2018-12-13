@@ -1,10 +1,12 @@
 package com.arlania.world.content;
 
 import com.arlania.GameLoader;
+import com.arlania.model.definitions.NPCDrops;
 import com.arlania.util.Misc;
 import com.arlania.world.World;
 import com.arlania.world.content.minigames.impl.Nomad;
 import com.arlania.world.content.minigames.impl.RecipeForDisaster;
+import com.arlania.world.entity.impl.npc.NPC;
 import com.arlania.world.entity.impl.player.Player;
 
 public class PlayerPanel {
@@ -15,8 +17,8 @@ public class PlayerPanel {
 
 		int counter = 39159;
 		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Droprates");
-		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Droprate: "+player.getDropRate());
-		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Double drop chance: "+player.getDoubleDropRate());
+		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Droprate: "+NPCDrops.getDroprate(player));
+		player.getPacketSender().sendString(counter++, LINE_START.replace(">", "*") + "@or1@Double drop chance: "+NPCDrops.getDoubleDr(player));
 		player.getPacketSender().sendString(counter++, "");
 
 		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Tools");
