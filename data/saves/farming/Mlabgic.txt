@@ -1,0 +1,36 @@
+[PATCH]
+patch: 0
+stage: 0
+minute: 29
+hour: 7
+day: 300
+year: 2017
+END PATCH
+
+[PATCH]
+patch: 1
+stage: 0
+minute: 23
+hour: 7
+day: 300
+year: 2017
+END PATCH
+
+[PATCH]
+patch: 2
+stage: 0
+minute: 23
+hour: 7
+day: 300
+year: 2017
+END PATCH
+
+[PATCH]
+patch: 3
+stage: 0
+minute: 0
+hour: 0
+day: 0
+year: 0
+END PATCH
+

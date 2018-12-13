@@ -1,0 +1,72 @@
+[PATCH]
+patch: 0
+stage: 3
+minute: 38
+hour: 10
+day: 9
+year: 2017
+END PATCH
+
+[PATCH]
+patch: 1
+stage: 3
+minute: 44
+hour: 9
+day: 2
+year: 2017
+END PATCH
+
+[PATCH]
+patch: 2
+stage: 3
+minute: 44
+hour: 9
+day: 2
+year: 2017
+END PATCH
+
+[PATCH]
+patch: 3
+stage: 0
+minute: 0
+hour: 0
+day: 0
+year: 0
+END PATCH
+
+[PLANT]
+patch: 0
+plant: 14
+stage: 5
+watered: -1
+harvested: 0
+minute: 42
+hour: 10
+day: 9
+year: 2017
+END PLANT
+
+[PLANT]
+patch: 1
+plant: 27
+stage: 4
+watered: -1
+harvested: 0
+minute: 50
+hour: 9
+day: 2
+year: 2017
+END PLANT
+
+[PLANT]
+patch: 2
+plant: 20
+stage: 6
+watered: -1
+harvested: 0
+minute: 49
+hour: 9
+day: 2
+year: 2017
+END PLANT
+
