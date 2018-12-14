@@ -635,7 +635,7 @@ public class CommandPacketListener implements PacketListener {
 			player.getPacketSender().sendString(1, "http://LiquidX.net/forums" + threadId + "-");
 		}
 		if (command[0].equalsIgnoreCase("train")) {
-			TeleportHandler.teleportPlayer(player, new Position(2679, 3714), player.getSpellbook().getTeleportType());
+			TeleportHandler.teleportPlayer(player, new Position(2305, 4589), player.getSpellbook().getTeleportType());
 
 		}
 

@@ -29,7 +29,7 @@ public class BarrowsSpawning {
 	/*
 	 * The armors required to animate an NPC
 	 */
-	private static final int[][] ARMOR_DATA = {{1042, 1044, 1046, 7}, {1067, 1115, 1153, 8}, {1069, 1119, 1157, 9}, {1077, 1125, 1165, 10}, {1071, 1121, 1159, 11}, {1073, 1123, 1161, 12}, {1079, 1127, 1163, 13}};
+	private static final int[][] ARMOR_DATA = {{1042, 1044, 1046, 7}, {1075, 1115, 1153, 8}, {1069, 1119, 1157, 9}, {1077, 1125, 1165, 10}, {1071, 1121, 1159, 11}, {1073, 1123, 1161, 12}, {1079, 1127, 1163, 13}};
 	private static final int[] ANIMATED_ARMOUR_NPCS = {7, 8, 9, 10, 11, 12, 13};
 	private static final int[] HERCULES = {5, 10, 15, 20, 26, 32, 40};
 	

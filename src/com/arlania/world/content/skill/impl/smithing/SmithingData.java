@@ -426,8 +426,8 @@ public class SmithingData {
 		player.getPacketSender().sendSmithingData(9140,0,1123,10);
 		player.getPacketSender().sendSmithingData(1279,1,1119,1);
 		player.getPacketSender().sendSmithingData(1420,1,1120,1);
-		player.getPacketSender().sendSmithingData(1067,1,1121,1);
-		player.getPacketSender().sendSmithingData(1153,1,1122,1);
+		player.getPacketSender().sendSmithingData(1075,1,1121,1);
+		player.getPacketSender().sendSmithingData(1155,1,1122,1);
 		player.getPacketSender().sendSmithingData(40,1,1123,15);
 		player.getPacketSender().sendSmithingData(1323,2,1119,1);
 		player.getPacketSender().sendSmithingData(1335,2,1120,1);
@@ -436,7 +436,7 @@ public class SmithingData {
 		player.getPacketSender().sendSmithingData(863,2,1123,5);
 		player.getPacketSender().sendSmithingData(1293,3,1119,1);
 		player.getPacketSender().sendSmithingData(1363,3,1120,1);
-		player.getPacketSender().sendSmithingData(1115,3,1121,1);
+		player.getPacketSender().sendSmithingData(1117,3,1121,1);
 		player.getPacketSender().sendSmithingData(1191,3,1122,1);
 		player.getPacketSender().sendSmithingData(1309,4,1119,1);
 		player.getPacketSender().sendSmithingData(4820,4,1122,15);

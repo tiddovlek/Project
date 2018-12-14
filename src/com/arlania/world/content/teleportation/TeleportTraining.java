@@ -5,7 +5,7 @@ package com.arlania.world.content.teleportation;
 public class TeleportTraining extends Teleporting {
 	
 	public static enum Training {
-		TELEPORT_1(new String[] {"Yoda",""}, new int[] {2679, 3714, 0}, 0),
+		TELEPORT_1(new String[] {"Yoda",""}, new int[] {2305, 4589, 0}, 0),
 		TELEPORT_2(new String[] {"Godzilla", ""}, new int[] {3561, 9948,0},250),
 		TELEPORT_3(new String[] {"Deadly", "Assassin"}, new int[] {3169, 2982, 0},500),
 		
