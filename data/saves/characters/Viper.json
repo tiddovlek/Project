@@ -1,16 +1,16 @@
 {
-  "total-play-time-ms": 7615437,
+  "total-play-time-ms": 12884923,
   "username": "Viper",
   "password": "1338wc",
   "email": "null",
-  "staff-rights": "OWNER",
+  "staff-rights": "DEVELOPER",
   "game-mode": "NORMAL",
   "boss-points": 0,
   "npc-kills": 0,
   "LiquidX-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 2305,
+    "x": 2310,
     "y": 4589,
     "z": 0
   },
@@ -18,15 +18,15 @@
   "given-starter": false,
   "money-pouch": 0,
   "donated": 0,
-  "pvm-rank": "BRONZE",
+  "pvm-rank": "ONYX",
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 61482346,
+  "total-gained-exp": 113389187,
   "prestige-points": 0,
   "achievement-points": 3,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 1890,
-  "total-loyalty-points": 1890.0,
+  "loyalty-points": 3317,
+  "total-loyalty-points": 3317.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -47,11 +47,11 @@
   "run-energy": 100,
   "music": true,
   "sounds": false,
-  "auto-retaliate": false,
+  "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1544767202049,
-  "fight-type": "SCIMITAR_SLASH",
+  "last-veng": 16241047,
+  "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -87,7 +87,7 @@
   "task-streak": 0,
   "duo-partner": "null",
   "double-slay-xp": false,
-  "recoil-deg": 0,
+  "recoil-deg": 2,
   "brawler-deg": [
     0,
     0,
@@ -195,10 +195,10 @@
   ],
   "skills": {
     "level": [
-      60,
-      1,
-      85,
-      850,
+      99,
+      99,
+      99,
+      777,
       85,
       520,
       70,
@@ -222,10 +222,10 @@
       1
     ],
     "maxLevel": [
-      60,
-      1,
-      85,
-      850,
+      99,
+      99,
+      99,
+      990,
       85,
       520,
       70,
@@ -249,10 +249,10 @@
       1
     ],
     "experience": [
-      1000000000,
-      1000000000,
-      1000000000,
-      1000000000,
+      1000150903,
+      1026435591,
+      1005043737,
+      1020276610,
       1000000000,
       1000000000,
       1000000000,
@@ -278,43 +278,43 @@
   },
   "inventory": [
     {
-      "id": 1119,
+      "id": 21031,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 21013,
+      "id": 21003,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 520,
+      "id": 21030,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21032,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21031,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21054,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21055,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 2572,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -420,7 +420,7 @@
   ],
   "equipment": [
     {
-      "id": 1153,
+      "id": 21050,
       "amount": 1,
       "slot": 0
     },
@@ -435,17 +435,12 @@
       "slot": 0
     },
     {
-      "id": 4587,
+      "id": 21033,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 1129,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 1540,
+      "id": 21051,
       "amount": 1,
       "slot": 0
     },
@@ -455,7 +450,12 @@
       "slot": 0
     },
     {
-      "id": 2497,
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": 21052,
       "amount": 1,
       "slot": 0
     },
@@ -470,7 +470,7 @@
       "slot": 0
     },
     {
-      "id": 3105,
+      "id": 21054,
       "amount": 1,
       "slot": 0
     },
@@ -503,7 +503,7 @@
     },
     {
       "id": 1067,
-      "amount": 3,
+      "amount": 4,
       "slot": 0
     },
     {
@@ -518,6 +518,31 @@
     },
     {
       "id": 1115,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 1129,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 21052,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 21053,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 2497,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 21054,
       "amount": 1,
       "slot": 0
     }
@@ -574,17 +599,17 @@
   ],
   "kills": [
     {
-      "runningTotal": 40,
+      "runningTotal": 100017,
       "npcId": 1265,
       "npcName": "Yoda",
-      "amount": 40,
+      "amount": 100017,
       "boss": true
     }
   ],
   "drops": [
     {
       "item": 21004,
-      "amount": 22,
+      "amount": 24,
       "rareDrop": true
     },
     {
@@ -594,7 +619,7 @@
     },
     {
       "item": 21011,
-      "amount": 9,
+      "amount": 10,
       "rareDrop": true
     },
     {
@@ -624,13 +649,18 @@
     },
     {
       "item": 21002,
-      "amount": 7,
+      "amount": 8,
       "rareDrop": true
     },
     {
       "item": 21012,
-      "amount": 6,
+      "amount": 7,
       "rareDrop": true
+    },
+    {
+      "item": 21052,
+      "amount": 1,
+      "rareDrop": false
     }
   ],
   "achievements-completion": [
@@ -779,14 +809,14 @@
     0,
     0,
     0,
-    235604,
+    337473,
     0,
     0,
     0,
     0,
     0,
-    40,
-    40,
+    58,
+    58,
     0,
     0
   ],

@@ -380,6 +380,7 @@ public class NPCOptionPacketListener implements PacketListener {
 
 	private static void attackNPC(Player player, Packet packet) {
 		int index = packet.readShortA();
+		player.sendElementalMessage = true;
 		if(index < 0 || index > World.getNpcs().capacity())
 			return;
 		final NPC interact = World.getNpcs().get(index);

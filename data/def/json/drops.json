@@ -7757,19 +7757,95 @@
         1
       ],
       "chance": 4
-    }, {
+    },
+    {
+      "id": 21050,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21051,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21052,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21053,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21054,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21031,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21033,
+      "count": [
+        1
+      ],
+      "chance": 4
+    },
+    {
+      "id": 21030,
+      "count": [
+        1
+      ],
+      "chance": 3
+    },
+    {
+      "id": 21032,
+      "count": [
+        1
+      ],
+      "chance": 3
+    },
+
+    {
       "id": 21002,
       "count": [
         1
       ],
       "chance": 3
-    }, {
-      "id": 1553,
+    },
+
+    {
+      "id": 1153,
       "count": [
         1
       ],
       "chance": 3
-    }, {
+    },
+    {
+      "id": 2572,
+      "count": [
+        1
+      ],
+      "chance": 5
+    },
+
+    {
       "id": 1115,
       "count": [
         1
@@ -8096,37 +8172,37 @@
       "count": [
         1
       ],
-      "chance": 5
+      "chance": 6
     },{
       "id": 20103,
       "count": [
         1
       ],
-      "chance": 4
+      "chance": 5
     },{
       "id": 20104,
       "count": [
         1
       ],
-      "chance": 4
+      "chance": 5
     },{
       "id": 20105,
       "count": [
         1
       ],
-      "chance": 4
+      "chance": 5
     },{
       "id": 20106,
       "count": [
         1
       ],
-      "chance": 4
+      "chance": 5
     },{
       "id": 20107,
       "count": [
         1
       ],
-      "chance": 4
+      "chance": 5
     }
   ]
 },
@@ -8140,7 +8216,7 @@
       "count": [
         1
       ],
-      "chance": 4
+      "chance": 5
     },{
       "id": 20086,
       "count": [

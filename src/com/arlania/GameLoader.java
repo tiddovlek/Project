@@ -125,9 +125,6 @@ public final class GameLoader {
 		}
                 
 		serviceLoader.execute(() -> ConnectionHandler.init());
-		serviceLoader.execute(() -> NpcDefinition.parseNpcs().load());
-		serviceLoader.execute(() -> NPCDrops.parseDrops().load());
-		serviceLoader.execute(() -> NPC.init());
 		serviceLoader.execute(() -> PlayerPunishment.init());
 		serviceLoader.execute(() -> RegionClipping.init());
 		serviceLoader.execute(() -> CustomObjects.init());

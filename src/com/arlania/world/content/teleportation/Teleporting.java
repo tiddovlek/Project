@@ -2,6 +2,7 @@ package com.arlania.world.content.teleportation;
 
 import com.arlania.model.PlayerRights;
 import com.arlania.model.Position;
+import com.arlania.world.content.KillsTracker;
 import com.arlania.world.content.transportation.TeleportHandler;
 import com.arlania.world.entity.impl.player.Player;
 
@@ -47,14 +48,16 @@ public class Teleporting {
 	 * 			The destination being teleported to.
 	 */
 	public static void teleportTraining(Player player, int destination) {
+		int npckills = KillsTracker.getTotalKills(player);
 		for (final TeleportTraining.Training t : TeleportTraining.Training.values()) {
 			if (destination == t.ordinal()) {
 				if (t.getCoordinates()[2] == 10) {
 					player.sendMessage("This teleport is currently unavailable.");
 					return;
 				}
-				if(player.getNpcKills() < t.getReq()) {
+				if(npckills < t.getReq()) {
 					player.sendMessage("You need "+t.getReq()+" Npc kills to access this zone!");
+					player.sendMessage("You have "+npckills+" Npc kills!");
 					return;
 				}
 				TeleportHandler.teleportPlayer(player, new Position(t.getCoordinates()[0], t.getCoordinates()[1]), player.getSpellbook().getTeleportType());

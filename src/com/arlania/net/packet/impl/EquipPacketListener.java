@@ -119,6 +119,7 @@ public class EquipPacketListener implements PacketListener {
 							player.getEquipment().setItem(Equipment.WEAPON_SLOT, new Item(-1));
 							player.getEquipment().setItem(Equipment.SHIELD_SLOT, item);
 							resetWeapon(player);
+							player.sendElementalMessage = true;
 						} else {
 							if (item.getDefinition().getEquipmentSlot() == equipItem.getDefinition().getEquipmentSlot() && equipItem.getId() != -1) {
 								if(player.getInventory().contains(equipItem.getId())) {

@@ -158,6 +158,8 @@ public class CombatHookTask extends Task {
 							 * Hit two times
 							 */
 							case 21003:
+							case 21032:
+							case 21033:
 							case 21013:
 							case 20102:
 								container.setHitAmount(2);

@@ -314,7 +314,7 @@ private int npcKills;
         if (weaponId == 19939) {
             speed = 3;
         }
-        if (weaponId == 21002 || weaponId == 11539|| weaponId == 21013 || weaponId == 20102 || weaponId == 21003 || weaponId == 21004)  {
+        if (weaponId == 21002 || weaponId == 11539|| weaponId == 21013 || weaponId == 20102 || weaponId == 21003 || weaponId == 21030 || weaponId == 21031 || weaponId == 21032 || weaponId == 21033 || weaponId == 21004)  {
             speed = 2;
         }
         if (fightType == FightType.CROSSBOW_RAPID || fightType == FightType.LONGBOW_RAPID || weaponId == 6522 && fightType == FightType.KNIFE_RAPID || weapon.contains("rapier")) {
@@ -329,7 +329,8 @@ private int npcKills;
         return speed;
         //	return DesolaceFormulas.getAttackDelay(this);
     }
-    
+
+    public boolean sendElementalMessage = true;
     public int clue1Amount;
     public int clue2Amount;
     public int clue3Amount;
@@ -360,6 +361,13 @@ private int npcKills;
     
     public Bank getBank() {
         return bank;
+    }
+
+    public boolean isSendElementalMessage() {
+    return sendElementalMessage;
+    }
+    public void setSendElementalMessage(boolean elemental) {
+        this.sendElementalMessage = elemental;
     }
 
     @Override
