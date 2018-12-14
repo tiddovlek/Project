@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92275a26-bdf4-460d-bc10-3c31bb897225" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/Bans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/Bans.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/IPBans.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/IPBans.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/IPMutes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/IPMutes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/characters/Viper.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Viper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/logs/Viper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/Viper.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/definitions/NPCDrops$ItemDropAnnouncer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/definitions/NPCDrops$ItemDropAnnouncer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/definitions/NPCDrops.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/definitions/NPCDrops.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/smithing/SmithingData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/smithing/SmithingData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/teleportation/TeleportTraining$Training.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/teleportation/TeleportTraining$Training.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/smithing/SmithingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/smithing/SmithingData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore." beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore." afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/characters/Viperwef.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Viperwef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/logs/Viperwef.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/Viperwef.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name=".gitignore." pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore.">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -142,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore." />
       </list>
     </option>
   </component>
@@ -168,6 +153,12 @@
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="saves" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,9 +263,9 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
@@ -363,10 +354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore.">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
