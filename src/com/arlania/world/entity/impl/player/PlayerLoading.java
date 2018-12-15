@@ -312,6 +312,7 @@ public class PlayerLoading {
 				int npc = reader.get("summon-npc").getAsInt();
 				if (npc > 0)
 					player.getSummoning().setFamiliarSpawnTask(new FamiliarSpawnTask(player)).setFamiliarId(npc);
+				player.setSummoned(npc);
 			}
 			if (reader.has("summon-death")) {
 				int death = reader.get("summon-death").getAsInt();

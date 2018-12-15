@@ -74,13 +74,13 @@ public class MoneyPouch {
 			}
 			plr.getPacketSender().sendInterfaceRemoval();
 		}
-		if(amount > plr.getMoneyInPouch())
-			amount = plr.getMoneyInPouch();
-		if ((plr.getInventory().getAmount(995) + amount) < Integer.MAX_VALUE) {
-			plr.setMoneyInPouch(plr.getMoneyInPouch() - amount);
-			plr.getInventory().add(995, (int) amount);
+		if(amount > plr.getMoneyInPouch()/1000000000)
+			amount = plr.getMoneyInPouch()/1000000000;
+		if ((plr.getInventory().getAmount(5022) + amount) < Integer.MAX_VALUE) {
+			plr.setMoneyInPouch(plr.getMoneyInPouch() - amount*1000000000);
+			plr.getInventory().add(5022, (int) amount);
 			plr.getPacketSender().sendString(8135, ""+plr.getMoneyInPouch());
-			plr.getPacketSender().sendMessage("You withdraw "+amount+" coins from your pouch.");
+			plr.getPacketSender().sendMessage("You withdraw "+amount+" B from your pouch.");
 			if(allowWithdraw)
 				plr.getPacketSender().sendItemContainer(plr.getInventory(), 3322);
 			return true;

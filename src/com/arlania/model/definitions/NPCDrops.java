@@ -31,6 +31,7 @@ import com.arlania.world.content.clan.ClanChatManager;
 import com.arlania.world.content.combat.strategy.impl.Nex;
 import com.arlania.world.content.minigames.impl.WarriorsGuild;
 import com.arlania.world.content.skill.impl.prayer.BonesData;
+import com.arlania.world.content.skill.impl.summoning.BossPets;
 import com.arlania.world.content.skill.impl.summoning.CharmingImp;
 import com.arlania.world.entity.impl.GroundItemManager;
 import com.arlania.world.entity.impl.npc.NPC;
@@ -40,10 +41,10 @@ import com.google.gson.JsonObject;
 
 /**
  * Controls the npc drops
- * 
+ *
  * @author 2012 <http://www.rune-server.org/members/dexter+morgan/>, Gabbe &
  *         Samy
- * 
+ *
  */
 public class NPCDrops {
 
@@ -95,7 +96,7 @@ public class NPCDrops {
 
 	/**
 	 * Gets the NPC drop controller by an id.
-	 * 
+	 *
 	 * @return The NPC drops associated with this id.
 	 */
 	public static NPCDrops forId(int id) {
@@ -108,7 +109,7 @@ public class NPCDrops {
 
 	/**
 	 * Gets the drop list
-	 * 
+	 *
 	 * @return the list
 	 */
 	public NpcDropItem[] getDropList() {
@@ -117,7 +118,7 @@ public class NPCDrops {
 
 	/**
 	 * Gets the npcIds
-	 * 
+	 *
 	 * @return the npcIds
 	 */
 	public int[] getNpcIds() {
@@ -146,7 +147,7 @@ public class NPCDrops {
 
 		/**
 		 * New npc drop item
-		 * 
+		 *
 		 * @param id
 		 *            the item
 		 * @param count
@@ -162,7 +163,7 @@ public class NPCDrops {
 
 		/**
 		 * Gets the item id.
-		 * 
+		 *
 		 * @return The item id.
 		 */
 		public int getId() {
@@ -171,7 +172,7 @@ public class NPCDrops {
 
 		/**
 		 * Gets the chance.
-		 * 
+		 *
 		 * @return The chance.
 		 */
 		public int[] getCount() {
@@ -180,66 +181,68 @@ public class NPCDrops {
 
 		/**
 		 * Gets the chance.
-		 * 
+		 *
 		 * @return The chance.
 		 */
 		public DropChance getChance() {
 			switch (chance) {
-			case 1:
-				return DropChance.ALMOST_ALWAYS; // 50% <-> 1/2
-			case 2:
-				return DropChance.VERY_COMMON; // 20% <-> 1/5
-			case 3:
-				return DropChance.COMMON; // 5% <-> 1/20
-			case 4:
-				return DropChance.UNCOMMON; // 2% <-> 1/50
-			case 5:
-				return DropChance.RARE; // 0.5% <-> 1/200
-			case 6:
-				return DropChance.LEGENDARY; // 0.2% <-> 1/500
-			case 7:
-				return DropChance.LEGENDARY_2;
-			case 8:
-				return DropChance.LEGENDARY_3;
-			case 9:
-				return DropChance.LEGENDARY_4;
-			case 10:
-				return DropChance.LEGENDARY_5;
-			default:
-				return DropChance.ALWAYS; // 100% <-> 1/1
+				case 1:
+					return DropChance.ALMOST_ALWAYS; // 50% <-> 1/2
+				case 2:
+					return DropChance.VERY_COMMON; // 20% <-> 1/5
+				case 3:
+					return DropChance.COMMON; // 5% <-> 1/20
+				case 4:
+					return DropChance.UNCOMMON; // 2% <-> 1/50
+				case 5:
+					return DropChance.RARE; // 0.5% <-> 1/200
+				case 6:
+					return DropChance.LEGENDARY; // 0.2% <-> 1/500
+				case 7:
+					return DropChance.LEGENDARY_2;
+				case 8:
+					return DropChance.LEGENDARY_3;
+				case 9:
+					return DropChance.LEGENDARY_4;
+				case 10:
+					return DropChance.LEGENDARY_5;
+				case 1000:
+					return DropChance.PET;
+				default:
+					return DropChance.ALWAYS; // 100% <-> 1/1
 			}
 		}
-		
+
 		public WellChance getWellChance() {
 			switch (chance) {
-			case 1:
-				return WellChance.ALMOST_ALWAYS; // 50% <-> 1/2
-			case 2:
-				return WellChance.VERY_COMMON; // 20% <-> 1/5
-			case 3:
-				return WellChance.COMMON; // 5% <-> 1/20
-			case 4:
-				return WellChance.UNCOMMON; // 2% <-> 1/50
-			case 5:
-				return WellChance.RARE; // 0.5% <-> 1/200
-			case 6:
-				return WellChance.LEGENDARY; // 0.2% <-> 1/320
-			case 7:
-				return WellChance.LEGENDARY_2; // 1/410
-			case 8:
-				return WellChance.LEGENDARY_3; // 1/850
-			case 9:
-				return WellChance.LEGENDARY_4; // 1/680
-			case 10:
-				return WellChance.LEGENDARY_5; // 1/900
-			default:
-				return WellChance.ALWAYS; // 100% <-> 1/1
+				case 1:
+					return WellChance.ALMOST_ALWAYS; // 50% <-> 1/2
+				case 2:
+					return WellChance.VERY_COMMON; // 20% <-> 1/5
+				case 3:
+					return WellChance.COMMON; // 5% <-> 1/20
+				case 4:
+					return WellChance.UNCOMMON; // 2% <-> 1/50
+				case 5:
+					return WellChance.RARE; // 0.5% <-> 1/200
+				case 6:
+					return WellChance.LEGENDARY; // 0.2% <-> 1/320
+				case 7:
+					return WellChance.LEGENDARY_2; // 1/410
+				case 8:
+					return WellChance.LEGENDARY_3; // 1/850
+				case 9:
+					return WellChance.LEGENDARY_4; // 1/680
+				case 10:
+					return WellChance.LEGENDARY_5; // 1/900
+				default:
+					return WellChance.ALWAYS; // 100% <-> 1/1
 			}
 		}
 
 		/**
 		 * Gets the item
-		 * 
+		 *
 		 * @return the item
 		 */
 		public Item getItem() {
@@ -248,15 +251,14 @@ public class NPCDrops {
 				amount += count[i];
 			if (amount > count[0])
 				amount = count[0] + RandomUtility.getRandom(count[1]);
-				return new Item(id, amount);
+			return new Item(id, amount);
 		}
 	}
 
 	public enum DropChance {
-		ALWAYS(0), ALMOST_ALWAYS(2), VERY_COMMON(5), COMMON(40), UNCOMMON(75), NOTTHATRARE(
-				100), RARE(155), LEGENDARY(320), LEGENDARY_2(410), LEGENDARY_3(850), LEGENDARY_4(680), LEGENDARY_5(900);
-		
-		
+		ALWAYS(0), ALMOST_ALWAYS(2), VERY_COMMON(5), COMMON(15), UNCOMMON(30), RARE(60), LEGENDARY(100), LEGENDARY_2(150), LEGENDARY_3(200), LEGENDARY_4(250), LEGENDARY_5(400),PET(1000);
+
+
 		DropChance(int randomModifier) {
 			this.random = randomModifier;
 		}
@@ -267,12 +269,12 @@ public class NPCDrops {
 			return this.random;
 		}
 	}
-	
+
 	public enum WellChance {
 		ALWAYS(0), ALMOST_ALWAYS(2), VERY_COMMON(3), COMMON(8), UNCOMMON(20), NOTTHATRARE(
 				50), RARE(76), LEGENDARY(160), LEGENDARY_2(205), LEGENDARY_3(425), LEGENDARY_4(340), LEGENDARY_5(450);
-		
-		
+
+
 		WellChance(int randomModifier) {
 			this.random = randomModifier;
 		}
@@ -287,7 +289,7 @@ public class NPCDrops {
 	/**
 	 * Drops items for a player after killing an npc. A player can max receive
 	 * one item per drop chance.
-	 * 
+	 *
 	 * @param p
 	 *            Player to receive drop.
 	 * @param npc
@@ -309,20 +311,20 @@ public class NPCDrops {
 		final boolean amuletOfInsanity = p.getEquipment().get(Equipment.AMULET_SLOT).getId() == 11422;
 		final Position npcPos = npc.getPosition().copy();
 		boolean[] dropsReceived = new boolean[12];
-		
-		
+
+
 
 		if (drops.getDropList().length > 0 && p.getPosition().getZ() >= 0 && p.getPosition().getZ() < 4) {
-			
+
 			casketDrop(p, npc.getDefinition().getCombatLevel(), npcPos);
 		}
 		if (drops.getDropList().length > 0 && p.getPosition().getZ() >= 0 && p.getPosition().getZ() < 4) {
 			monsterfragmentDrop(p, npc.getDefinition().getCombatLevel(), npcPos);
-			
+
 		}
 		if (drops.getDropList().length > 0 && p.getPosition().getZ() >= 0 && p.getPosition().getZ() < 4) {
 			clueDrop(p, npc.getDefinition().getCombatLevel(), npcPos);
-			
+
 		}
 
 		if(Misc.inclusiveRandom(1,100) == 1) {
@@ -341,13 +343,13 @@ public class NPCDrops {
 				continue;
 			}
 
-			 DropChance dropChance = drops.getDropList()[i].getChance();
+			DropChance dropChance = drops.getDropList()[i].getChance();
 
 
 			if (dropChance == DropChance.ALWAYS) {
 				drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
 			} else {
-				if(shouldDrop(p, dropsReceived, dropChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
+				if(shouldDrop(p,drops.getDropList().length, drops.getDropList(), dropsReceived, dropChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
 					if(shouldDoubleDrop(p, dropsReceived, dropChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
 						doubleDrop = true;
 						drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
@@ -365,31 +367,38 @@ public class NPCDrops {
 
 
 		if (WellOfWealth.isActive()) {
-		for (int i = 0; i < drops.getDropList().length; i++) {
-			if (drops.getDropList()[i].getItem().getId() <= 0 || drops.getDropList()[i].getItem().getId() > ItemDefinition.getMaxAmountOfItems() || drops.getDropList()[i].getItem().getAmount() <= 0) {
-				continue;
-			}
+			for (int i = 0; i < drops.getDropList().length; i++) {
+				if (drops.getDropList()[i].getItem().getId() <= 0 || drops.getDropList()[i].getItem().getId() > ItemDefinition.getMaxAmountOfItems() || drops.getDropList()[i].getItem().getAmount() <= 0) {
+					continue;
+				}
 
-			WellChance wellChance = drops.getDropList()[i].getWellChance();
+				WellChance wellChance = drops.getDropList()[i].getWellChance();
 
-			if (wellChance == WellChance.ALWAYS) {
-				drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
-			} else {
-				if(shouldRecieveDrop(dropsReceived, wellChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
+				if (wellChance == WellChance.ALWAYS) {
 					drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
-					dropsReceived[wellChance.ordinal()] = true;
+				} else {
+					if(shouldRecieveDrop(dropsReceived, wellChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
+						drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
+						dropsReceived[wellChance.ordinal()] = true;
 					}
 				}
 			}
 		}
-		
+
 	}
 
-	public static boolean shouldDrop(Player p, boolean[] b, DropChance chance,
-			boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
-		double random = chance.getRandom(); //pull the chance from the table
-		 double drBoost = NPCDrops.getDroprate(p);
+	public static boolean shouldDrop(Player p,double drops,NpcDropItem[] c, boolean[] b, DropChance chance,
+									 boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
 
+		int x = 0;
+		double random = chance.getRandom(); //pull the chance from the table
+		double drBoost = NPCDrops.getDroprate(p);
+	for(int i = 0; i < drops; i++) {
+		if(random == c[i].getChance().getRandom()) {
+			x++;
+		}
+	}
+		random *= x;
 		p.setDroprate(drBoost);
 		random = (int)random * ((100-drBoost)/100);
 
@@ -400,14 +409,15 @@ public class NPCDrops {
 		double drBoost = 0;
 		final boolean ringOfWealth = p.getEquipment().get(Equipment.RING_SLOT).getId() == 2572;
 
-		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
-			drBoost += 2;
-		}
 		if(p.getRights() == PlayerRights.PLAYER) {
 			drBoost = 2;
 		}
 		if(p.getRights() == PlayerRights.OWNER) {
 			drBoost = 100;
+		}
+
+		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 2;
 		}
 		return drBoost;
 	}
@@ -415,20 +425,24 @@ public class NPCDrops {
 		double drBoost = 0;
 		final boolean ringOfWealth = p.getEquipment().get(Equipment.RING_SLOT).getId() == 2572;
 
-		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
-			drBoost += 2;
-		}
 		if(p.getRights() == PlayerRights.PLAYER) {
 			drBoost = 2;
 		}
 		if(p.getRights() == PlayerRights.OWNER) {
 			drBoost = 100;
 		}
+
+		if(p.getSummoned() == 1266) {
+			drBoost += 2;
+		}
+		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 2;
+		}
 		return drBoost;
 	}
 
 	public static boolean shouldDoubleDrop(Player p, boolean[] b, DropChance chance,
-									 boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
+										   boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
 		double random = 100; //pull the chance from the table
 		double drBoost = NPCDrops.getDoubleDr(p);
 
@@ -437,9 +451,9 @@ public class NPCDrops {
 
 		return !b[chance.ordinal()] && Misc.getRandom((int) random) == 0; //return true if random between 0 & table value is 1.
 	}
-	
+
 	public static boolean shouldRecieveDrop(boolean[] b, WellChance chance,
-			boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
+											boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
 		int random = chance.getRandom();
 		if (ringOfWealth && random >= 100) {
 			random -= (random / 5);
@@ -466,17 +480,17 @@ public class NPCDrops {
 	}
 
 	public static void drop(Player player, Item item, NPC npc, Position pos,
-			boolean goGlobal) {
-	//	if (player.getEquipment().contains(12601)) {	
+							boolean goGlobal) {
+		//	if (player.getEquipment().contains(12601)) {
 		//	player.getPacketSender().sendMessage("@red@Your Ring of the Gods has boosted your drop rate by 25%.");
 		//}
-		
-		//if (player.getEquipment().contains(2572)) {	
-			//player.getPacketSender().sendMessage("@red@Your Ring of Wealth has boosted your drop rate by 10%.");
+
+		//if (player.getEquipment().contains(2572)) {
+		//player.getPacketSender().sendMessage("@red@Your Ring of Wealth has boosted your drop rate by 10%.");
 		//}
-		 if(npc.getId() == 2042 || npc.getId() == 2043 || npc.getId() == 2044) {
-	            pos = player.getPosition().copy();
-	        }
+		if(npc.getId() == 2042 || npc.getId() == 2043 || npc.getId() == 2044) {
+			pos = player.getPosition().copy();
+		}
 
 		String npcName = Misc.formatText(npc.getDefinition().getName());
 
@@ -492,7 +506,7 @@ public class NPCDrops {
 		int itemId = item.getId();
 		int amount = item.getAmount();
 
-		
+
 		if (itemId == 6731 ||  itemId == 6914 || itemId == 7158 ||  itemId == 6889 || itemId == 6733 || itemId == 15019 || itemId == 11235 || itemId == 15020 || itemId == 15018 || itemId == 15220 || itemId == 6735 || itemId == 6737 || itemId == 6585 || itemId == 4151 || itemId == 4087 || itemId == 2577 || itemId == 2581 || itemId == 11732 || itemId == 18782 ) {
 			player.getPacketSender().sendMessage("@red@ YOU HAVE RECEIVED A MEDIUM DROP, CHECK THE GROUND!");
 
@@ -530,11 +544,11 @@ public class NPCDrops {
 				}
 			}
 		}
-		
+
 		if(itemId == 18778) { //Effigy, don't drop one if player already has one
 			if(toGive.getInventory().contains(18778) || toGive.getInventory().contains(18779) || toGive.getInventory().contains(18780) || toGive.getInventory().contains(18781)) {
 				return;
-			} 
+			}
 			for(Bank bank : toGive.getBanks()) {
 				if(bank == null) {
 					continue;
@@ -554,59 +568,59 @@ public class NPCDrops {
 						toGive.getUsername(), false, 150, goGlobal, 200));
 			}
 			switch (itemId) {
-			case 14484:
-				itemMessage = "a pair of Dragon Claws";
-				break;
-			case 20000:
-			case 20001:
-			case 20002:
-				itemMessage = itemName;
-				break;
+				case 14484:
+					itemMessage = "a pair of Dragon Claws";
+					break;
+				case 20000:
+				case 20001:
+				case 20002:
+					itemMessage = itemName;
+					break;
 			}
 			switch (npc.getId()) {
 				case 81:
-				npcName = "a Cow";
-				break;
-			case 50:
-			case 3200:
-			case 8133:
-			case 4540:
-			case 1160:
-			case 8549:
-				npcName = "The " + npcName + "";
-				break;
-			case 51:
-			case 54:
-			case 5363:
-			case 8349:
-			case 1592:
-			case 1591:
-			case 1590:
-			case 1615:
-			case 9463:
-			case 9465:
-			case 9467:
-			case 1382:
-			case 13659:
-			case 11235:
-				npcName = "" + Misc.anOrA(npcName) + " " + npcName + "";
-				break;
+					npcName = "a Cow";
+					break;
+				case 50:
+				case 3200:
+				case 8133:
+				case 4540:
+				case 1160:
+				case 8549:
+					npcName = "The " + npcName + "";
+					break;
+				case 51:
+				case 54:
+				case 5363:
+				case 8349:
+				case 1592:
+				case 1591:
+				case 1590:
+				case 1615:
+				case 9463:
+				case 9465:
+				case 9467:
+				case 1382:
+				case 13659:
+				case 11235:
+					npcName = "" + Misc.anOrA(npcName) + " " + npcName + "";
+					break;
 			}
 			ItemDefinition drop = ItemDefinition.forId(itemId);
 			NpcDefinition npcDrop = NpcDefinition.forId(npc.getId());
 
-				if (doubleDrop && yell) {
-					String message = "@blu@[Double Drop] " + toGive.getUsername()
-							+ " has just his @red@" + drop.getName() + "@blu@ Doubled from " + npcDrop.getName()
-							+ "!";
-					World.sendMessage(message);
-					yell = false;
-				} else if(!doubleDrop) {
-					String message = "@blu@[RARE DROP] " + toGive.getUsername()
-							+ " has just received @red@" + itemMessage + "@blu@ from " + npcName
-							+ "!";
-					World.sendMessage(message);
-				}
+			if (doubleDrop && yell) {
+				String message = "@blu@[Double Drop] " + toGive.getUsername()
+						+ " has just his @red@" + drop.getName() + "@blu@ Doubled from " + npcDrop.getName()
+						+ "!";
+				World.sendMessage(message);
+				yell = false;
+			} else if(!doubleDrop) {
+				String message = "@blu@[RARE DROP] " + toGive.getUsername()
+						+ " has just received @red@" + itemMessage + "@blu@ from " + npcName
+						+ "!";
+				World.sendMessage(message);
+			}
 
 
 			if(ccAnnounce) {
@@ -646,18 +660,18 @@ public class NPCDrops {
 			player.getPacketSender().sendMessage("@or2@You have received a clue scroll!");
 		}
 	}
-	
+
 	public static class ItemDropAnnouncer {
 
 		private static List<Integer> ITEM_LIST;
 
 		private static final int[] TO_ANNOUNCE = new int[] {14008, 3681, 1067,1115,21011,21012,1153,3687,21002,21002,21003,21004,3680, 3679, 19023, 11425, 18957, 18954, 14484, 2108, 2109, 2110, 2105, 2106, 2107, 3954, 17848, 17847, 3683, 3684, 3685, 3686, 3666, 3682, 17849, 7614, 14009, 18932, 2094, 2093, 12681, 12861, 19886, 2098, 14596, 2099, 6821, 2100, 2101, 2102, 19670, 19008, 19019, 14010, 14011, 14012, 14013, 14014, 18894, 18903, 18905, 18912, 19672, 19673, 19674, 14015, 14016, 10887, 19780, 2581, 2577, 14472, 14474, 14476,
 				6571, 11286, 11732,21050,21051,21052,21053,21054,21030,21031,21032,21033, 4087, 4585, 11335, 2513, 15501, 15259, 12282, 6573, 17291, 12601, 13748, 13750, 13752, 13746,
-				20555, 12926, 11235, 18899, 13045, 13047, 13239, 12708, 13235, 20057, 20058, 20059, 15126, 19335, 15241, 18337, 
+				20555, 12926, 11235, 18899, 13045, 13047, 13239, 12708, 13235, 20057, 20058, 20059, 15126, 19335, 15241, 18337,
 				11730, 7956, 20000, 20001, 20002, 18778, 15486, 11924, 6889, 18346, 11926, 6914, 11724, 11726, 11728, 11718, 11720, 11722, 11710, 11712, 11714,
 				11702, 11704, 11706, 4706, 12284, 13051, 11708, 11716, 6739, 2570, 6562, 15220, 15018, 15020, 15019, 6731, 6733, 6735, 6737,
 				11981, 11982, 11983, 11984, 11985, 18917, 18916, 19066, 11986, 11987, 11988, 11989, 11990, 11991, 11992, 11993, 11994, 11995, 11996, 11997};//All Rare Boss Drops};
-		
+
 
 		private static void init() {
 			ITEM_LIST = new ArrayList<Integer>();

@@ -363,6 +363,14 @@ private int npcKills;
         return bank;
     }
 
+    public int summoned = -1;
+
+    public int getSummoned(){
+        return summoned;
+    }
+    public void setSummoned(int sum){
+        this.summoned = sum;
+    }
     public boolean isSendElementalMessage() {
     return sendElementalMessage;
     }

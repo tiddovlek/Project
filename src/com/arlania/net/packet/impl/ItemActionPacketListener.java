@@ -112,6 +112,16 @@ public class ItemActionPacketListener implements PacketListener {
 			Construction.handleItemClick(itemId, player);
 			return;
 		}
+
+		if(itemId == 5023) {
+			int amount = 0;
+
+			for(int i = 0; i < player.getInventory().getAmount(5023); i++) {
+				amount++;
+			}
+			player.getInventory().delete(5023,amount);
+			player.getInventory().add(5022,1000000*amount);
+		}
 		
 		if(slot < 0 || slot > player.getInventory().capacity())
 			return;
@@ -144,6 +154,10 @@ public class ItemActionPacketListener implements PacketListener {
 		}
 		if(ExperienceLamps.handleLamp(player, itemId)) {
 			return;
+		}
+		if(itemId == 5022) {
+			player.getInventory().delete(5022,1);
+			player.getInventory().add(995,1000000000);
 		}
 		
 		switch(itemId) {
@@ -767,7 +781,18 @@ public class ItemActionPacketListener implements PacketListener {
 			return;
 		if (SummoningData.isPouch(player, itemId, 2))
 			return;
+
+		if(itemId == 5022) {
+			for(int i = 0; i < player.getInventory().getAmount(5023); i++) {
+				player.getInventory().delete(5022,i);
+				MoneyPouch.depositMoney(player,1000000000);
+
+			}
+		}
+
 		switch(itemId) {
+
+
 		case 6500:
 			if(player.getCombatBuilder().isAttacking() || player.getCombatBuilder().isBeingAttacked()) {
 				player.getPacketSender().sendMessage("You cannot configure this right now.");
@@ -887,6 +912,15 @@ public class ItemActionPacketListener implements PacketListener {
 		case 995:
 			MoneyPouch.depositMoney(player, player.getInventory().getAmount(995));
 			break;
+			case 5022:
+				int amount = 0;
+				for(int i = 0; i < player.getInventory().getAmount(5022); i++) {
+					amount++;
+				}
+				player.getInventory().delete(5022,amount);
+				player.setMoneyInPouch(player.getMoneyInPouch()+(long)1000000000*amount);
+				player.getPacketSender().sendString(8135, ""+player.getMoneyInPouch());
+				break;
 		case 1438:
 		case 1448:
 		case 1440:
@@ -922,6 +956,14 @@ public class ItemActionPacketListener implements PacketListener {
 		if(ItemBinding.isBindable(itemId)) {
 			ItemBinding.bindItem(player, itemId);
 			return;
+		}
+		if(itemId == 5022) {
+			int amount = 0;
+			for(int i = 0; i < player.getInventory().getAmount(5022); i++) {
+				amount++;
+			}
+			player.getInventory().delete(5022,amount);
+			player.setMoneyInPouch((long) 1000000000*amount);
 		}
 		switch(itemId) {
 		case 14019:

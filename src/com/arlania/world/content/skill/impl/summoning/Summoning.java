@@ -121,6 +121,7 @@ public class Summoning {
 		foll.performGraphic(new Graphic(1315));
 		foll.setPositionToFace(player.getPosition());
 		foll.setSummoningNpc(true);
+		player.setSummoned(foll.getId());
 		foll.setEntityInteraction(player);
 		foll.getMovementQueue().setFollowCharacter(player);
 		World.register(foll);

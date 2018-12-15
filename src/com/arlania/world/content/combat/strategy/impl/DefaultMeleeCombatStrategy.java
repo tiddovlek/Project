@@ -2,6 +2,7 @@ package com.arlania.world.content.combat.strategy.impl;
 
 import com.arlania.model.Animation;
 import com.arlania.model.Graphic;
+import com.arlania.model.definitions.NpcDefinition;
 import com.arlania.model.definitions.WeaponAnimations;
 import com.arlania.model.definitions.WeaponInterfaces.WeaponInterface;
 import com.arlania.world.content.combat.CombatContainer;
