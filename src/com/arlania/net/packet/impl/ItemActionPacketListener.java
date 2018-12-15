@@ -704,9 +704,9 @@ public class ItemActionPacketListener implements PacketListener {
 			break;
 		case 6199:
 			int rewards2[][] = {
-					{3749, 3753, 10828, 1215, 4587, 4091, 4093, 4095, 4097, 1079, 1127, 1093, 15332, 3024, 15272, 6685, 1434, 2, 536, 534, 1149, 1305, 1377, 1434, 1615, 3000, 3204, 2941, 2947, 2503, 15272, 2503, 10499, 6199, 6326, 861, 1163, 1201, 6111, 544, 6199, 542, 5574, 5575, 5576, 1215, 3105, 13734, 7400, 2572, 11118}, //Common, 0
-					{15501, 11133, 10828, 6199, 3751, 3753, 11884, 10589, 6739, 6739, 2577, 2581, 15332, 15332, 15332, 11732, 6199, 10564, 6809, 4587, 1249, 3204, 1305, 1377, 1434, 6528, 7158, 4153, 6, 8, 10, 12, 4675, 6914, 6889, 4716, 4718, 4720, 4722, 4745, 4747, 4749, 4751, 4708, 4710, 4712, 4714, 4732, 4734, 4736, 4738, 4724, 4726, 4728, 4730, 4151, 11732, 6585, 2577, 2581, 6737, 11235, 4675, 4087, 1187, 6914, 6889, 3140, 6916, 6918, 6920, 6922, 6924, 6731, 6735, 6733}, //Uncommon, 1
-					{3749, 3753, 10828, 1215, 4587, 4091, 4093, 4095, 4097, 1079, 1127,6739, 15259, 15332, 15126, 11856, 11854, 11852, 11846, 11850, 11732, 11848,  2577, 2581, 2572, 15501, 6920, 6922, 11335, 15241, 15243, 6585, 4151, 11696, 11724, 11726, 11728, 11694, 11718, 11720, 11722, 11700, 11716, 11698, 11730, 11283, 18349, 18351, 18353, 18355, 18357, 18359, 2527, 12601, 15486, 15018, 15019, 15020, 15220} //Rare, 2
+					{3959,3952,19066,19045,19044,19043,19042,18927,19041,19040,19021,19020,19019,18986,18951,18929}, //Common, 0
+					{18929,18926,18922,18920,18892,18888}, //Uncommon, 1
+					{3959,18929,18926,18922,18920,18892,18888} //Rare, 2
 			};
 			double numGen = Math.random();
 			/** Chances
@@ -714,10 +714,23 @@ public class ItemActionPacketListener implements PacketListener {
 			 *  40% chance of Uncommon Items - various high-end coin-bought gear
 			 *  10% chance of Rare Items - Highest-end coin-bought gear, some voting-point/pk-point equipment
 			 */
-			int rewardGrade = numGen >= 0.5 ? 0 : numGen >= 0.20 ? 1 : 2;
+			int rewardGrade;
+			int random = Misc.random(99)+1;
+			if(random > 50) {
+				rewardGrade = 0;
+			} else if(random > 4) {
+				rewardGrade = 1;
+			} else {
+				rewardGrade = 3;
+			}
+
+
 			rewardPos = RandomUtility.getRandom(rewards2[rewardGrade].length-1);
 			player.getInventory().delete(6199, 1);
 			player.getInventory().add(rewards2[rewardGrade][rewardPos], 1).refreshItems();
+			if(rewards2[rewardGrade][rewardPos] == 3959) {
+				World.sendMessage("@bla@[@or2@Cape box@bla@] @or1@"+player.getUsername()+"@bla@ Has just received Dragonrage wings!");
+			}
 			break;
 		case 15501:
 			int superiorRewards[][] = {

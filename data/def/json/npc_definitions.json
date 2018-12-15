@@ -136981,7 +136981,7 @@
 {
 "id": 9172,
 "name": "Aquanite",
-"examine": "A rare monster found in caves.",
+"examine": "A rare monster found in caves. Elemental: Water",
 "combat": 114,
 "size": 2,
 "attackable": true,
@@ -136990,7 +136990,7 @@
 "poisonous": false,
 "respawn": 35,
 "maxHit": 160,
-"hitpoints": 1450,
+"hitpoints": 7000,
 "attackSpeed": 7,
 "attackAnim": 12041,
 "defenceAnim": 12040,

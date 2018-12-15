@@ -235,6 +235,8 @@ public class NPCDrops {
 					return WellChance.LEGENDARY_4; // 1/680
 				case 10:
 					return WellChance.LEGENDARY_5; // 1/900
+				case 1000:
+					return WellChance.PET;
 				default:
 					return WellChance.ALWAYS; // 100% <-> 1/1
 			}
@@ -272,7 +274,7 @@ public class NPCDrops {
 
 	public enum WellChance {
 		ALWAYS(0), ALMOST_ALWAYS(2), VERY_COMMON(3), COMMON(8), UNCOMMON(20), NOTTHATRARE(
-				50), RARE(76), LEGENDARY(160), LEGENDARY_2(205), LEGENDARY_3(425), LEGENDARY_4(340), LEGENDARY_5(450);
+				50), RARE(76), LEGENDARY(160), LEGENDARY_2(205), LEGENDARY_3(425), LEGENDARY_4(340), LEGENDARY_5(450),PET(1000);
 
 
 		WellChance(int randomModifier) {

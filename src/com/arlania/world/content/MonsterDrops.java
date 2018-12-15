@@ -80,9 +80,6 @@ public class MonsterDrops {
 				line++;
 			}
 		}
-		if (line == 29081) {
-			player.getPA().sendFrame126(28901 + 4, "\\n\\n\\n\\n\\nNo 100% drops");
-		}
 		line++;
 
 		ArrayList<String> added = new ArrayList<>();
@@ -98,7 +95,8 @@ public class MonsterDrops {
 				continue;
 			}
 			final DropChance dropChance = drops.getDropList()[i].getChance();
-			if (dropChance.ordinal() > DropChance.ALWAYS.ordinal()) {
+			if (dropChance.ordinal() > DropChance.ALWAYS.ordinal()
+					&& dropChance.ordinal() <= DropChance.UNCOMMON.ordinal()) {
 				String itemName = ItemDefinition.forId(drops.getDropList()[i].getItem().getId()).getName();
 				if (!added.contains(itemName)) {
 					added.add(itemName);
@@ -109,7 +107,8 @@ public class MonsterDrops {
 				}
 			}
 			final WellChance wellChance = drops.getDropList()[i].getWellChance();
-			if (wellChance.ordinal() > WellChance.ALWAYS.ordinal()) {
+			if (wellChance.ordinal() > WellChance.ALWAYS.ordinal()
+					&& wellChance.ordinal() <= WellChance.UNCOMMON.ordinal()) {
 				String itemName = ItemDefinition.forId(drops.getDropList()[i].getItem().getId()).getName();
 				if (!added.contains(itemName)) {
 					added.add(itemName);
