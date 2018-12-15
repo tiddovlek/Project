@@ -1,7 +1,7 @@
 {
-  "total-play-time-ms": 39611933,
+  "total-play-time-ms": 40109442,
   "username": "Viper",
-  "password": "1338wc",
+  "password": "tiddotjevlek1997",
   "email": "null",
   "staff-rights": "OWNER",
   "game-mode": "NORMAL",
@@ -10,8 +10,8 @@
   "LiquidX-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 1885,
-    "y": 4368,
+    "x": 1890,
+    "y": 4365,
     "z": 0
   },
   "online-status": "ON",
@@ -20,13 +20,13 @@
   "donated": 0,
   "pvm-rank": "ONYX",
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 1543326024,
+  "total-gained-exp": 1550542192,
   "prestige-points": 0,
   "achievement-points": 5,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 8459,
-  "total-loyalty-points": 8459.0,
+  "loyalty-points": 8597,
+  "total-loyalty-points": 8597.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -51,7 +51,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1544788879460,
+  "last-veng": 1544789307388,
   "fight-type": "SWORD_LUNGE",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -73,7 +73,7 @@
     0
   ],
   "effigy": 0,
-  "summon-npc": 3047,
+  "summon-npc": -1,
   "summon-death": -1,
   "process-farming": false,
   "clanchat": "Viper",
@@ -82,9 +82,9 @@
   "dfs-charges": 0,
   "coins-gambled": 0,
   "slayer-master": "VANNAKA",
-  "slayer-task": "NO_TASK",
+  "slayer-task": "QUA",
   "prev-slayer-task": "NO_TASK",
-  "task-amount": 0,
+  "task-amount": 52,
   "task-streak": 0,
   "duo-partner": "null",
   "double-slay-xp": false,
@@ -199,7 +199,7 @@
       99,
       99,
       99,
-      767,
+      498,
       85,
       520,
       70,
@@ -214,7 +214,7 @@
       1,
       1,
       1,
-      1,
+      27,
       1,
       1,
       1,
@@ -241,7 +241,7 @@
       1,
       1,
       1,
-      1,
+      27,
       1,
       1,
       1,
@@ -252,7 +252,7 @@
     "experience": [
       1000150903,
       1026435591,
-      1424404414,
+      1431610492,
       2000000000,
       1000000000,
       1000022305,
@@ -268,7 +268,7 @@
       0,
       0,
       0,
-      0,
+      10090,
       0,
       0,
       0,
@@ -279,143 +279,143 @@
   },
   "inventory": [
     {
+      "id": 2572,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 2685,
+      "amount": 1,
+      "slot": 0
+    },
+    {
       "id": -1,
       "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 3959,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18892,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 19042,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18920,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18926,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18922,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18986,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18926,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18830,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 19042,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18892,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     },
     {
-      "id": 18927,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18926,
-      "amount": 1,
-      "slot": 0
-    },
-    {
-      "id": 18926,
-      "amount": 1,
+      "id": -1,
+      "amount": 0,
       "slot": 0
     }
   ],
@@ -731,10 +731,10 @@
       "boss": true
     },
     {
-      "runningTotal": 3,
+      "runningTotal": 6,
       "npcId": 9172,
       "npcName": "Aquanite",
-      "amount": 3,
+      "amount": 6,
       "boss": false
     }
   ],
@@ -876,12 +876,12 @@
     },
     {
       "item": 6199,
-      "amount": 24,
+      "amount": 48,
       "rareDrop": false
     },
     {
       "item": 18830,
-      "amount": 21,
+      "amount": 42,
       "rareDrop": false
     }
   ],
@@ -1037,8 +1037,8 @@
     0,
     1,
     0,
+    80,
     77,
-    74,
     0,
     0
   ],

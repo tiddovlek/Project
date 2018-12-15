@@ -31,6 +31,7 @@ import com.arlania.world.content.clan.ClanChatManager;
 import com.arlania.world.content.combat.strategy.impl.Nex;
 import com.arlania.world.content.minigames.impl.WarriorsGuild;
 import com.arlania.world.content.skill.impl.prayer.BonesData;
+import com.arlania.world.content.skill.impl.slayer.SlayerTasks;
 import com.arlania.world.content.skill.impl.summoning.BossPets;
 import com.arlania.world.content.skill.impl.summoning.CharmingImp;
 import com.arlania.world.entity.impl.GroundItemManager;
@@ -351,7 +352,7 @@ public class NPCDrops {
 			if (dropChance == DropChance.ALWAYS) {
 				drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
 			} else {
-				if(shouldDrop(p,drops.getDropList().length, drops.getDropList(), dropsReceived, dropChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
+				if(shouldDrop(p,npc,drops.getDropList().length, drops.getDropList(), dropsReceived, dropChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
 					if(shouldDoubleDrop(p, dropsReceived, dropChance, ringOfWealth, ringOfWealth1, ringOfWealth2, ringOfWealth3, ringOfWealthLucky, amuletOfInsanity, ringOfGods, p.getGameMode() == GameMode.IRONMAN || p.getGameMode() == GameMode.HARDCORE_IRONMAN, p.getRights())) {
 						doubleDrop = true;
 						drop(p, drops.getDropList()[i].getItem(), npc, npcPos, goGlobal);
@@ -389,20 +390,24 @@ public class NPCDrops {
 
 	}
 
-	public static boolean shouldDrop(Player p,double drops,NpcDropItem[] c, boolean[] b, DropChance chance,
+	public static boolean shouldDrop(Player p,NPC npc, double drops,NpcDropItem[] c, boolean[] b, DropChance chance,
 									 boolean ringOfWealth, boolean ringOfWealth1, boolean ringOfWealth2, boolean ringOfWealth3, boolean ringOfWealthLucky, boolean amuletOfInsanity, boolean ringOfGods, boolean extreme, PlayerRights rights) {
 
 		int x = 0;
 		double random = chance.getRandom(); //pull the chance from the table
 		double drBoost = NPCDrops.getDroprate(p);
-	for(int i = 0; i < drops; i++) {
-		if(random == c[i].getChance().getRandom()) {
-			x++;
+		for (int i = 0; i < drops; i++) {
+			if (random == c[i].getChance().getRandom()) {
+				x++;
+			}
 		}
-	}
 		random *= x;
 		p.setDroprate(drBoost);
-		random = (int)random * ((100-drBoost)/100);
+		if (p.getSlayer().getSlayerTask().getNpcId() == npc.getId()) {
+			drBoost += 3;
+			p.sendMessage("You received 3% extra dr");
+	}
+			random = (int)random * ((100-drBoost)/100);
 
 		return !b[chance.ordinal()] && Misc.getRandom((int) random) == 0; //return true if random between 0 & table value is 1.
 	}
