@@ -84,6 +84,7 @@ public class PlayerSaving {
 			object.addProperty("target-percentage",
 					new Integer(player.getPlayerKillingAttributes().getTargetPercentage()));
 			object.addProperty("bh-rank", new Integer(player.getAppearance().getBountyHunterSkull()));
+			object.addProperty("beta-tester", new Boolean(player.getBetaTester()));
 			object.addProperty("gender", player.getAppearance().getGender().name());
 			object.addProperty("spell-book", player.getSpellbook().name());
 			object.addProperty("shop-updated", new Boolean(player.isShopUpdated()));

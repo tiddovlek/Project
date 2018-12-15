@@ -195,7 +195,9 @@ private Map<String, Object> attributes = new HashMap<>();
    	public void incrementLiquidXPoints(double amount) {
 		this.LiquidXPoints -= amount;
    	}
-   	
+
+   	private boolean betaTester;
+
     private int bossPoints;
     private int weaponGamePoints;
     
@@ -211,6 +213,12 @@ private int npcKills;
 	public int getNpcKills() {
 		return npcKills;
 	}
+	public void setBetaTester(boolean beta) {
+	    this.betaTester = beta;
+    }
+    public boolean getBetaTester(){
+	    return betaTester;
+    }
 	
 	public void setNpcKills(int npcKills) {
 		this.npcKills = npcKills;
@@ -314,7 +322,7 @@ private int npcKills;
         if (weaponId == 19939) {
             speed = 3;
         }
-        if (weaponId == 21002 || weaponId == 11539|| weaponId == 21013 || weaponId == 20102 || weaponId == 21003 || weaponId == 21030 || weaponId == 21031 || weaponId == 21032 || weaponId == 21033 || weaponId == 21004)  {
+        if (weaponId == 21002 || weaponId == 11539|| weaponId == 21060 || weaponId == 21013 || weaponId == 20102 || weaponId == 21003 || weaponId == 21030 || weaponId == 21031 || weaponId == 21032 || weaponId == 21033 || weaponId == 21004)  {
             speed = 2;
         }
         if (fightType == FightType.CROSSBOW_RAPID || fightType == FightType.LONGBOW_RAPID || weaponId == 6522 && fightType == FightType.KNIFE_RAPID || weapon.contains("rapier")) {

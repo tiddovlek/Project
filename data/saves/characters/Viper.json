@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 34381749,
+  "total-play-time-ms": 36460480,
   "username": "Viper",
   "password": "1338wc",
   "email": "null",
@@ -10,23 +10,23 @@
   "LiquidX-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 3681,
-    "y": 2979,
+    "x": 3678,
+    "y": 2985,
     "z": 0
   },
   "online-status": "ON",
   "given-starter": false,
-  "money-pouch": 8899997939010048,
+  "money-pouch": 8999996939010048,
   "donated": 0,
   "pvm-rank": "ONYX",
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 129172341,
+  "total-gained-exp": 129715756,
   "prestige-points": 0,
   "achievement-points": 3,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 7135,
-  "total-loyalty-points": 7135.0,
+  "loyalty-points": 7634,
+  "total-loyalty-points": 7634.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -38,6 +38,7 @@
   "player-deaths": 0,
   "target-percentage": 0,
   "bh-rank": -1,
+  "beta-tester": false,
   "gender": "MALE",
   "spell-book": "NORMAL",
   "shop-updated": false,
@@ -50,8 +51,8 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1544784993489,
-  "fight-type": "UNARMED_KICK",
+  "last-veng": 1544786842144,
+  "fight-type": "SWORD_LUNGE",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -198,7 +199,7 @@
       99,
       99,
       99,
-      917,
+      990,
       85,
       520,
       70,
@@ -251,8 +252,8 @@
     "experience": [
       1000150903,
       1026435591,
-      1014658351,
-      1026445150,
+      1014990581,
+      1026656335,
       1000000000,
       1000000000,
       1000000000,
@@ -278,17 +279,17 @@
   },
   "inventory": [
     {
-      "id": 5022,
-      "amount": 99997,
+      "id": 20087,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": 995,
-      "amount": 2000000000,
+      "id": 13696,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": 21060,
+      "id": 3666,
       "amount": 1,
       "slot": 0
     },
@@ -358,33 +359,33 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20104,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20102,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20103,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 13196,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21054,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 20106,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -420,7 +421,7 @@
   ],
   "equipment": [
     {
-      "id": 20104,
+      "id": 13196,
       "amount": 1,
       "slot": 0
     },
@@ -435,27 +436,17 @@
       "slot": 0
     },
     {
-      "id": 20102,
+      "id": 21060,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 20087,
+      "id": 13197,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": 20103,
+      "id": 13199,
       "amount": 1,
       "slot": 0
     },
@@ -465,12 +456,22 @@
       "slot": 0
     },
     {
-      "id": 20106,
+      "id": 13198,
       "amount": 1,
       "slot": 0
     },
     {
-      "id": 21054,
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": 13207,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 13206,
       "amount": 1,
       "slot": 0
     },
@@ -888,7 +889,7 @@
     0,
     0,
     0,
-    368438,
+    369508,
     0,
     0,
     0,

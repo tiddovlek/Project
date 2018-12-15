@@ -974,6 +974,11 @@ public class CommandPacketListener implements PacketListener {
 						+ ">@red@ [Youtuber] @bla@" + player.getUsername() + ":" + yellMessage);
 				return;
 			}
+			if (player.getBetaTester()) {
+				World.sendMessage("" + player.getRights().getYellPrefix() + "<img=" + player.getRights().ordinal()
+						+ ">@or2@ [Beta tester] @or2@" + player.getUsername() + ":" + yellMessage);
+				return;
+			}
 			// TO-DO
 
 		}

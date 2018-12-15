@@ -247,7 +247,9 @@ break;
         player.getPacketSender().sendMessage("@red@You can now Vote for Donator! This Month only!");
         player.getPacketSender().sendMessage("@red@Double Donations until the end of the month!! Merry Christmas!! Do ::store");
 
-        
+        if(player.getBetaTester() == true) {
+            World.sendMessage("@bla@[@or2@Besta tester@bla@] @or2@"+player.getUsername()+"@bla@ has just logged in!");
+        }
         if (player.experienceLocked()) {
             player.getPacketSender().sendMessage("@red@Warning: your experience is currently locked.");
         }

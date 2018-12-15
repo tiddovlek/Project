@@ -415,9 +415,14 @@ public class NPCDrops {
 		if(p.getRights() == PlayerRights.OWNER) {
 			drBoost = 100;
 		}
-
+		if(p.getSummoned() == 1300) {
+			drBoost += 2;
+		}
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
 			drBoost += 2;
+		}
+		if(p.getBetaTester()) {
+			drBoost +=4;
 		}
 		return drBoost;
 	}
@@ -437,6 +442,9 @@ public class NPCDrops {
 		}
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
 			drBoost += 2;
+		}
+		if(p.getBetaTester()) {
+			drBoost +=4;
 		}
 		return drBoost;
 	}
