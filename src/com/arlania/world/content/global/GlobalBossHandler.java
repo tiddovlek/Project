@@ -12,7 +12,7 @@ import com.arlania.engine.task.TaskManager;
 import com.arlania.world.World;
 import com.arlania.world.content.combat.CombatBuilder;
 import com.arlania.world.content.combat.CombatFactory;
-import com.arlania.world.content.global.impl.WildyWyrm;
+import com.arlania.world.content.global.impl.BandosAva;
 import com.arlania.world.entity.impl.player.Player;
 
 /**
@@ -25,7 +25,7 @@ public final class GlobalBossHandler {
     private final static List<GlobalBoss> GLOBAL_BOSSES = new ArrayList<>();
 
     public static void init(){
-        register(new WildyWyrm());
+        register(new BandosAva());
     }
 
     static void register(GlobalBoss globalBoss){
@@ -91,9 +91,6 @@ public final class GlobalBossHandler {
             final Player killer = entry.getKey();
 
             npc.handleDrop(killer);
-
-            if(++count >= npc.maximumDrops())
-                break;
         }
     }
 

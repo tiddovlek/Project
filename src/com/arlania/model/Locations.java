@@ -1409,7 +1409,7 @@ public class Locations {
 			 * New in multi boolean coords for outsite wilderness
 			 */
 			int x = gc.getPosition().getX(), y = gc.getPosition().getY();
-			if (x >= 2700 && x <= 2730 && y >= 9800 && y <= 9829 || x >= 3080 && x <= 3120 && y >= 5520 && y <= 5550) {
+			if (x >= 2700 && x <= 2730 && y >= 9800 && y <= 9829 || x >= 3080 && x <= 3120 && y >= 5520 && y <= 5550 || x >= 2850 && x <= 9920 && y >= 9920&& y <= 9980) {
 				return true;
 			}
 			return gc.getLocation().multi;

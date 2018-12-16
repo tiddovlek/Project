@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+import com.arlania.world.content.combat.magic.CustomMagicStaff;
 import org.jboss.netty.channel.Channel;
 
 import com.arlania.GameSettings;
@@ -427,6 +428,12 @@ private int npcKills;
             } else if (combatSpecial.getCombatType() == CombatType.MAGIC) {
                 return CombatStrategies.getDefaultMagicStrategy();
             }
+        }
+
+        if (CustomMagicStaff.checkCustomStaff(this)) {
+            CustomMagicStaff.handleCustomStaff(this);
+            this.setCastSpell(CustomMagicStaff.CustomStaff.getSpellForWeapon(this.getEquipment().getItems()[Equipment.WEAPON_SLOT].getId()));
+            return CombatStrategies.getDefaultMagicStrategy();
         }
 
         if (castSpell != null || autocastSpell != null) {

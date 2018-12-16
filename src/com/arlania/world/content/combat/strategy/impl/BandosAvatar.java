@@ -34,6 +34,7 @@ public class BandosAvatar implements CombatStrategy {
 		if(bandosAvatar.isChargingAttack() || victim.getConstitution() <= 0) {
 			return true;
 		}
+
 		if(Locations.goodDistance(bandosAvatar.getPosition().copy(), victim.getPosition().copy(), 1) && Misc.getRandom(5) <= 3) {
 			bandosAvatar.performAnimation(new Animation(bandosAvatar.getDefinition().getAttackAnimation()));
 			bandosAvatar.getCombatBuilder().setContainer(new CombatContainer(bandosAvatar, victim, 1, 1, CombatType.MELEE, true));

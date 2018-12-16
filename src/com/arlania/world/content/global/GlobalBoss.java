@@ -53,7 +53,7 @@ public abstract class GlobalBoss extends NPC {
     }
 
     private String constructSpawnMessage(){
-        return "@red@A @whi@"+getDefinition().getName()+" @red@just spawned at @whi@"+spawnLocation.getString()+" @red@ Do ::wildywyrm to tele there!";
+        return "@red@A @whi@"+getDefinition().getName()+" @red@just spawned at @whi@"+spawnLocation.getString()+" !";
         
     }
 

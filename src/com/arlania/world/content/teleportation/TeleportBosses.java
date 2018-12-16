@@ -3,7 +3,7 @@ package com.arlania.world.content.teleportation;
 public class TeleportBosses extends Teleporting  {
 
 	public static enum Bosses {
-		TELEPORT_1(new String[] {"", ""}, new int[] {}),
+		TELEPORT_1(new String[] {"Bandos", "Avatar"}, new int[] {2867,9946,0}),
 		TELEPORT_2(new String[] {"", ""}, new int[] {}),
 		TELEPORT_3(new String[] {"", ""}, new int[] {}),
 		TELEPORT_4(new String[] {"", ""}, new int[] {}),
