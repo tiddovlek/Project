@@ -691,6 +691,31 @@ public class CommandPacketListener implements PacketListener {
 			player.getPacketSender().sendMessage("Your new password is: [" + syntax + "] Write it down!");
 
 		}
+		if (command[0].equalsIgnoreCase("claim")) {
+			new java.lang.Thread() {
+				public void run() {
+					try {
+						com.everythingrs.donate.Donation[] donations = com.everythingrs.donate.Donation.donations("secret_key",
+								player.getUsername());
+						if (donations.length == 0) {
+							player.getPacketSender().sendMessage("You currently don't have any items waiting. You must donate first!");
+							return;
+						}
+						if (donations[0].message != null) {
+							player.getPacketSender().sendMessage(donations[0].message);
+							return;
+						}
+						for (com.everythingrs.donate.Donation donate : donations) {
+							player.getInventory().add(new Item(donate.product_id, donate.product_amount));
+						}
+						player.getPacketSender().sendMessage("Thank you for donating!");
+					} catch (Exception e) {
+						player.getPacketSender().sendMessage("Api Services are currently offline. Please check back shortly");
+						e.printStackTrace();
+					}
+				}
+			}.start();
+		}
 
 		if (command[0].equalsIgnoreCase("home")) {
 			TeleportHandler.teleportPlayer(player, new Position(3676, 2983), player.getSpellbook().getTeleportType());

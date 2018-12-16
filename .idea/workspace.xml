@@ -2,324 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92275a26-bdf4-460d-bc10-3c31bb897225" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/def/json/npc_definitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/json/npc_definitions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/def/json/world_npcs.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/json/world_npcs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/def/txt/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/txt/items.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/characters/Viper.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Viper.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/logs/Viper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/Viper.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/engine/task/impl/NPCDeathTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/engine/task/impl/NPCDeathTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/Locations$Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/Locations$Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/Projectile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/Projectile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/input/impl/GambleAmount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/input/impl/GambleAmount$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/input/impl/ItemSearch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/input/impl/ItemSearch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/movement/MovementQueue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/movement/MovementQueue$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/model/movement/MovementQueue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/model/movement/MovementQueue$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ObjectActionPacketListener$1$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/RegionChangePacketListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/RegionChangePacketListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/World$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/World$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/CustomObjects$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Digging$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Digging$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Emotes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Emotes$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Emotes$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Emotes$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/KeysEvent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/KeysEvent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Sounds$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/Sounds$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/TrioBosses$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/TrioBosses$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/WildernessObelisks$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/WildernessObelisks$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/clan/ClanChat$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/clan/ClanChat$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/HitQueue$CombatHit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/HitQueue$CombatHit$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpell$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpell$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$34.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$35.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$36.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$37.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$38.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$39.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$40.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$41.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$42.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$43.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$44.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$45.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$46.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$47.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$48.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$49.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/prayer/CurseHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/prayer/CurseHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/prayer/PrayerHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/prayer/PrayerHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/range/DwarfMultiCannon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/range/DwarfMultiCannon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/range/DwarfMultiCannon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/range/DwarfMultiCannon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Abbadon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Abbadon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Aviansie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Aviansie$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BallakPummeler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BallakPummeler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BandosAvatar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BandosAvatar$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BandosAvatar$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BandosAvatar$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BandosAvatar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/BandosAvatar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Callisto$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Callisto$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Cerberus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Cerberus$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/ChaosElemental$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/ChaosElemental$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/CorporealBeast$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/CorporealBeast$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/CorporealBeast$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/CorporealBeast$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Cyrisus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Cyrisus$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/DagannothSupreme$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/DagannothSupreme$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/DefaultRangedCombatStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/DefaultRangedCombatStrategy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Dragon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Dragon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Dragonix$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Dragonix$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Geerin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Geerin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Glacor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Glacor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Graardor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Graardor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Grimspike$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Grimspike$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Gritch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Gritch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Growler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Growler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/HarLakkRiftsplitter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/HarLakkRiftsplitter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Jad$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Jad$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Jad$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Jad$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/KalphiteQueen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/KalphiteQueen$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/KalphiteQueen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/KalphiteQueen$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/KreeArra$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/KreeArra$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Kreeyath$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Kreeyath$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/LizardMan$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/LizardMan$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nazastarool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nazastarool$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nex$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nomad$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nomad$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nomad$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nomad$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nomad$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Nomad$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/PlaneFreezer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/PlaneFreezer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Revenant$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Revenant$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Sire$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Sire$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Skotizo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Skotizo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Steelwill$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Steelwill$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Thermonuclear$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Thermonuclear$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/ToKashBloodchiller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/ToKashBloodchiller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/TormentedDemon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/TormentedDemon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Tsutsuroth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Tsutsuroth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/UnholyCursebearer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/UnholyCursebearer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/UnholyCursebearer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/UnholyCursebearer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Vetion$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/Vetion$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/WildyWyrm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/WildyWyrm$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/WildyWyrm$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/WildyWyrm$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/WingmanSkree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/WingmanSkree$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ArmadylAbyzou$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ArmadylAbyzou$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ZamorakIktomi$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ZamorakIktomi$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ZamorakLefosh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ZamorakLefosh$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ZamorakLefosh$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/gwd2/ZamorakLefosh$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/BlueZulrah$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/BlueZulrah$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/BlueZulrah$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/BlueZulrah$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/BlueZulrah$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/BlueZulrah$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/CrimsonZulrah$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/CrimsonZulrah$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/CrimsonZulrah$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/CrimsonZulrah$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/CrimsonZulrah$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/CrimsonZulrah$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$1$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/zulrah/GreenZulrah$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$13$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$14$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$14$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$15$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$15$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$16$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$16$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$17$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$28$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$28$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$30$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$30$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$31$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$31$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$32$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$32$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$35$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$35$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$45.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$8$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/weapon/CombatSpecial$8$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/dialogue/impl/Tutorial$15$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/dialogue/impl/Tutorial$15$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/AVATAR$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/AVATAR$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/AVATAR$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/AVATAR$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BARRELS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BARRELS$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BARRELS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BARRELS$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BORKS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BORKS$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BORKS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/BORKS$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CERB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CERB$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CERB$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CERB$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CORP$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CORP$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CORP$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/CORP$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/DAGS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/DAGS$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/DAGS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/DAGS$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GLAC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GLAC$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GLAC$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GLAC$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GWD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GWD$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GWD$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/GWD$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KALPH$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KALPH$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KALPH$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KALPH$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KBD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KBD$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KBD$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/KBD$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/LIZARD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/LIZARD$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/LIZARD$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/LIZARD$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/NEXX$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/NEXX$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/NEXX$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/NEXX$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/PHEON$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/PHEON$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/PHEON$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/PHEON$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SKOT$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SKOT$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SKOT$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SKOT$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SLASHBASH$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SLASHBASH$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SLASHBASH$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/SLASHBASH$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/TDS$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/TDS$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/TDS$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/droppreview/TDS$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/ABCFlowersGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/ABCFlowersGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/BlackJackGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/BlackJackGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/DiceDuelGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/DiceDuelGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FiftyFiveGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FiftyFiveGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FlowerPokerGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FlowerPokerGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FlowerPokerGamblingGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FlowerPokerGamblingGame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FrostyFlowerGamblingGame$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FrostyFlowerGamblingGame$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FrostyFlowerGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/FrostyFlowerGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/HotOrColdGamblingGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/gambling/gamble/impl/HotOrColdGamblingGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBoss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBoss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/impl/WildyWyrm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Cows$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Cows$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Dueling$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Dueling$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/FightCave$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/FightCave$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Graveyard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Graveyard$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/HerculesBay/BarrowsSpawning$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Nomad$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/Nomad$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/PestControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/PestControl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/RecipeForDisaster$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/RecipeForDisaster$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/RecipeForDisaster$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/RecipeForDisaster$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/WarriorsGuild$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/WarriorsGuild$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/WarriorsGuild$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/minigames/impl/WarriorsGuild$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/SkillManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/SkillManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/SkillManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/SkillManager$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$10$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$10$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$10$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$10$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$11$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$11$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$12$1$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$12$1$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$12$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$12$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$12$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$12$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$13$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$14$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$14$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$15$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$15$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$16$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$16$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$17$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$18$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$18$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$19$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$19$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$20$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$20$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$21$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$21$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$22$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$22$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$23$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$23$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$24$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$24$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$25$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$25$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$6$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$7$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$8$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/agility/ObstacleData$9$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/construction/Construction$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/construction/Construction$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/cooking/Cooking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/cooking/Cooking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/crafting/Flax$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/crafting/Flax$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/crafting/Gems$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/crafting/Gems$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/crafting/LeatherMaking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/crafting/LeatherMaking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/dungeoneering/Dungeoneering$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/dungeoneering/Dungeoneering$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/farming/GrassyPatch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/farming/GrassyPatch$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/farming/Plant$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/farming/Plant$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/farming/Plant$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/farming/Plant$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/firemaking/Firemaking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/firemaking/Firemaking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/fishing/Fishing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/fishing/Fishing$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/fletching/Fletching$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/fletching/Fletching$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/fletching/Fletching$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/fletching/Fletching$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/herblore/Herblore$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/herblore/Herblore$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/herblore/Herblore$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/herblore/Herblore$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/hunter/PuroPuro$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/hunter/PuroPuro$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/mining/Mining$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/mining/Mining$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/mining/Prospecting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/mining/Prospecting$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/prayer/BonesOnAltar$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/prayer/BonesOnAltar$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/prayer/Prayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/prayer/Prayer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/runecrafting/DesoSpan$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/runecrafting/DesoSpan$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/smithing/EquipmentMaking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/smithing/EquipmentMaking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/smithing/Smelting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/smithing/Smelting$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/summoning/PouchMaking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/summoning/PouchMaking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/woodcutting/Woodcutting$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/skill/impl/woodcutting/Woodcutting$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/teleportation/TeleportBosses$Bosses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/teleportation/TeleportBosses$Bosses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/transportation/TeleportHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/transportation/TeleportHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/transportation/TeleportHandler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/transportation/TeleportHandler$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/Character$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/Character$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/Character$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/Character$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/Character$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/Character$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/entity/impl/player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/model/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/model/Locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/BandosAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/BandosAvatar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/WildyWyrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportBosses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportBosses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/everythingrs-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -349,25 +35,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalBossHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GlobalBossHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+            <state relative-caret-position="354">
+              <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#896#897#0" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NPCDeathTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="179" column="44" selection-start-line="179" selection-start-column="44" selection-end-line="179" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -388,8 +65,17 @@
       <file leaf-file-name="GlobalBoss.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandPacketListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="710" column="32" selection-start-line="710" selection-start-column="32" selection-end-line="710" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -450,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wings</find>
-      <find>1000</find>
       <find>Dragonrage wings</find>
       <find>no 100%</find>
       <find>no 100</find>
@@ -480,6 +164,8 @@
       <find>4540</find>
       <find>bandos</find>
       <find>::</find>
+      <find>&quot;command&quot;</find>
+      <find>&quot;home&quot;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -526,7 +212,6 @@
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportMinigames.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportPlayerKilling.java" />
         <option value="$PROJECT_DIR$/data/def/json/weapon_interfaces.json" />
-        <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/PlayerHandler.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java" />
         <option value="$PROJECT_DIR$/data/def/json/drops.json" />
@@ -549,6 +234,7 @@
         <option value="$PROJECT_DIR$/data/def/json/npc_definitions.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" />
       </list>
     </option>
   </component>
@@ -606,6 +292,11 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="saves" type="462c0819:PsiDirectoryNode" />
               <item name="characters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
@@ -726,10 +417,14 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.arlania.world.content.global.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -827,11 +522,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5056543" side_tool="true" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5048465" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49434572" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49434572" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49596122" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4951535" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
@@ -1017,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="976" column="28" selection-start-line="976" selection-start-column="28" selection-end-line="976" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1247,22 +935,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        <state relative-caret-position="354">
+          <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#896#897#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="710" column="32" selection-start-line="710" selection-start-column="32" selection-end-line="710" selection-end-column="32" />
         </state>
       </provider>
     </entry>
