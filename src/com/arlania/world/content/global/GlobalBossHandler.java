@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import com.arlania.GameSettings;
 import com.arlania.engine.task.Task;
 import com.arlania.engine.task.TaskManager;
+import com.arlania.model.definitions.ItemDefinition;
 import com.arlania.world.World;
 import com.arlania.world.content.combat.CombatBuilder;
 import com.arlania.world.content.combat.CombatFactory;
@@ -64,19 +65,20 @@ public final class GlobalBossHandler {
         final Map<Player, Integer> killers = new HashMap<>();
 
         for(Map.Entry<Player, CombatBuilder.CombatDamageCache> entry : npc.getCombatBuilder().getDamageMap().entrySet()) {
-        	
-            if(entry == null)
+
+            if(entry == null)  {
                 continue;
+            }
 
             final long timeout = entry.getValue().getStopwatch().elapsed();
-            
-            if(timeout > CombatFactory.DAMAGE_CACHE_TIMEOUT)
+
+            if(timeout > CombatFactory.DAMAGE_CACHE_TIMEOUT) {
                 continue;
 
+            }
+
             final Player player = entry.getKey();
-          
-            if(player.getConstitution() <= 0 || !player.isRegistered())
-                continue;
+
 
             killers.put(player, entry.getValue().getDamage());
         }
@@ -90,7 +92,10 @@ public final class GlobalBossHandler {
 
             final Player killer = entry.getKey();
 
-            npc.handleDrop(killer);
+            killer.giveItem(npc.getReward(),1);
+            killer.sendMessage("<shad=0>@bla@[@mag@Boss reward@bla@] You received 1x @mag@"+ ItemDefinition.forId(npc.getReward()).getName()+" @bla@in your inventory!");
+            if(++count >= npc.maximumDrops())
+                break;
         }
     }
 

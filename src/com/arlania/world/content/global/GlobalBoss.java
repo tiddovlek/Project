@@ -92,5 +92,7 @@ public abstract class GlobalBoss extends NPC {
      */
     protected abstract int maximumDrops();
 
+    protected abstract int getReward();
+
 
 }

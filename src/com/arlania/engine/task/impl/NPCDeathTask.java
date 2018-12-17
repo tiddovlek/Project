@@ -122,8 +122,6 @@ public class NPCDeathTask extends Task {
 						Achievements.finishAchievement(killer, AchievementData.DEFEAT_NOMAD);
 					} else if(npc.getId() == 2745) {
 						Achievements.finishAchievement(killer, AchievementData.DEFEAT_JAD);
-					} else if(npc.getId() == 4540) {
-						Achievements.finishAchievement(killer, AchievementData.DEFEAT_BANDOS_AVATAR);
 					} else if(npc.getId() == 6260) {
 						Achievements.finishAchievement(killer, AchievementData.DEFEAT_GENERAL_GRAARDOR);
 						killer.getAchievementAttributes().setGodKilled(0, true);
@@ -176,7 +174,6 @@ public class NPCDeathTask extends Task {
 					if(npc.getId() == 103) {
 						TrioBosses.handleGhost(killer, npc.getPosition());
 					}
-					
 					if(npc instanceof GlobalBoss)
 						GlobalBossHandler.onDeath((GlobalBoss)npc);
 					
