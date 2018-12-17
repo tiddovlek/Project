@@ -354,7 +354,7 @@ public class CommandPacketListener implements PacketListener {
 			new Thread() {
 				public void run() {
 					try {
-						com.everythingrs.donate.Donation[] donations = com.everythingrs.donate.Donation.donations("eoq03a7435pn6qm7izowyzxgvi4bisdley7l5858ckbkgyd86w29r8bu0ckbc93c48qpv8e0cnmi", 
+						com.everythingrs.donate.Donation[] donations = com.everythingrs.donate.Donation.donations("k5qda4pzj3u9ylex22mrhpviwxzp853vzyoxtdfvqpbx7ds4isqct1lg9xa3u6c36eifcg14i",
 								player.getUsername());
 						if (donations.length == 0) {
 							player.getPacketSender().sendMessage("You currently don't have any items waiting. You must donate first!");
@@ -366,9 +366,10 @@ public class CommandPacketListener implements PacketListener {
 						}
 						for (com.everythingrs.donate.Donation donate : donations) {
 							player.getInventory().add(new Item(donate.product_id, donate.product_amount));
+							World.sendMessage("<img=10> <shad=0>@bla@[<col=008FB2>Donation@bla@]<col=008FB2> "+player.getUsername()+" has just Donated <col=008FB2>"+donate.product_amount+"X @bla@ for <col=008FB2>"+donate.player_name+" @bla@!");
+
 						}
 						player.getPacketSender().sendMessage("Thank you for donating!");
-						//World.sendMessage("<img=10> <col=008FB2>Thank you PLAYERNAME for Donating! <3");
 
 					} catch (Exception e) {
 						player.getPacketSender().sendMessage("Api Services are currently offline. Please check back shortly");
@@ -565,37 +566,6 @@ public class CommandPacketListener implements PacketListener {
 			player.getPacketSender().sendMessage("@red@Video evidence is required to file a report.");
 			player.getPacketSender().sendMessage("@red@Only Staff + Ranked Players in 'Dice' Can Middleman! No MM = No Refunds.");
 		}
-		if (wholeCommand.equalsIgnoreCase("forum") || wholeCommand.equalsIgnoreCase("site")) {
-			player.getPacketSender().sendString(1, "http://www.LiquidX.net/forums/");
-			player.getPacketSender().sendMessage("Attempting to open: LiquidX Forums");
-			//Achievements.finishAchievement(player, AchievementData.OPEN_UP_THE_FORUMS);
-			
-			
-			
-			
-		}
-		if (command[0].equals("zombie") || command[0].equals("zombies")) {
-			TeleportHandler.teleportPlayer(player, new Position(3503, 3563),
-					player.getSpellbook().getTeleportType());
-		}
-		
-		
-		if (wholeCommand.equalsIgnoreCase("news") || wholeCommand.equalsIgnoreCase("new")) {
-			player.getPacketSender().sendString(1, "http://www.LiquidX.net");
-			player.getPacketSender().sendMessage("Make Sure To Read It All!");
-		}
-		if (wholeCommand.equalsIgnoreCase("benefits") || wholeCommand.equalsIgnoreCase("benefit")) {
-			player.getPacketSender().sendString(1, "http://LiquidX.net/forums/index.php?/topic/56-LiquidX-benefits-of-donating");
-			player.getPacketSender().sendMessage("Make Sure To Read It All!");
-		}
-		if (wholeCommand.equalsIgnoreCase("refund") || wholeCommand.equalsIgnoreCase("benefit")) {
-			player.getPacketSender().sendString(1, "http://www.LiquidX.net");
-			player.getPacketSender().sendMessage("Make Sure To Read It All!");
-		}
-		if (wholeCommand.equalsIgnoreCase("discord") || wholeCommand.equalsIgnoreCase("sitee")) {
-			player.getPacketSender().sendString(1, "http://www.discord.gg/vU4tm9Q");
-			player.getPacketSender().sendMessage("attempting to open Discord");
-		}
 
 		/*
 		 * Sql commands start
@@ -659,14 +629,7 @@ public class CommandPacketListener implements PacketListener {
 			player.getPacketSender().sendMessage(":; bosscommands - shows you the list of boss commands");
 
 		}
-		if (command[0].equalsIgnoreCase("bosscommands")) {
 
-			player.getPacketSender().sendMessage(":: cyrisus");
-			player.getPacketSender().sendMessage(":: direwolf");
-			player.getPacketSender().sendMessage(":: abbadon");
-			player.getPacketSender().sendMessage(":: triobros");
-
-		}
 
 		if (command[0].equalsIgnoreCase("setemail")) {
 			String email = wholeCommand.substring(9);
@@ -728,10 +691,6 @@ public class CommandPacketListener implements PacketListener {
 		} else {
 				TeleportHandler.teleportPlayer(player, new Position(3364, 3267), player.getSpellbook().getTeleportType());
 		}
-		}
-		if (wholeCommand.equalsIgnoreCase("donate") || wholeCommand.equalsIgnoreCase("store")) {
-			player.getPacketSender().sendString(1, "http://LiquidX.net/Donate");
-			player.getPacketSender().sendMessage("Attempting to open: LiquidX Donation Page");
 		}
 		if (command[0].equalsIgnoreCase("maxhit")) {
 			int attack = DesolaceFormulas.getMeleeAttack(player) / 10;

@@ -732,12 +732,40 @@ public class ItemActionPacketListener implements PacketListener {
 				World.sendMessage("@bla@[@or2@Cape box@bla@] @or1@"+player.getUsername()+"@bla@ Has just received Dragonrage wings!");
 			}
 			break;
+
+			case 7100:
+				int rewards3[][] = {
+						{11995,11996,11997,12001,12002,12003,12004,2771,2771,19935,12005,12006,11990,11981,11979,2090,2091}, //Uncommon, 0
+						{11991,11992,11993,11994,11989,11988,11987,11986,11985,11984,2759,2760,2761,2762,11983,11982,}, //Rare, 1
+						{2104,2758,2095,2096,2097,2098}
+				};
+				double numGen3 = Math.random();
+				/** Chances
+				 *  50% chance of Common Items - cheap gear, high-end consumables
+				 *  40% chance of Uncommon Items - various high-end coin-bought gear
+				 *  10% chance of Rare Items - Highest-end coin-bought gear, some voting-point/pk-point equipment
+				 */
+				int rewardGrade3;
+				int random3 = Misc.random(99)+1;
+				if(random3 > 50) {
+					rewardGrade3 = 0;
+				} else if(random3 > 4) {
+					rewardGrade3 = 1;
+				} else {
+					rewardGrade3 = 2;
+				}
+
+
+				rewardPos = RandomUtility.getRandom(rewards3[rewardGrade3].length-1);
+				player.getInventory().delete(7100, 1);
+				player.getInventory().add(rewards3[rewardGrade3][rewardPos], 1).refreshItems();
+					World.sendMessage("<shad=0>@bla@[@cya@Pet box@bla@] @cya@"+player.getUsername()+"@bla@ Has just received a @cya@ "+ItemDefinition.forId(rewards3[rewardGrade3][rewardPos]).getName()+" @bla@!");
+				break;
 		case 15501:
 			int superiorRewards[][] = {
-					{11133, 10828, 3751, 3753, 10589, 10564, 6809, 4587, 2581, 2577, 2577, 2577, 2581, 2581, 1249, 3204, 1305, 4151, 6585, 1377, 1434, 6528, 7158, 4153, 6, 8, 10, 12, 4675, 6914, 6889}, //Uncommon, 0
-					{6739, 15259, 15332, 2579, 6920, 6922, 15241, 11882, 4151, 6585, 6570, 11884, 11906}, //Rare, 1
-					{6570, 15018, 15019, 15020, 15220, 11730, 11718, 11720, 11722, 11724, 11726, 11283, 18349, 18353, 13896, 18357, 10551, 4151, 2577, }, //Epic, 2
-					{11235, 17273, 11696, 11698, 11700, 20072, 15486, 19336, 19337, 19338, 19339, 19340} //Legendary, 3
+					{11995,11996,11997,12001,12002,12003,12004,2771,2771,19935,12005,12006,11990,11981,11979,2090,2091}, //Uncommon, 0
+					{11991,11992,11993,11994,11989,11988,11987,11986,11985,11984,2759,2760,2761,2762,11983,11982,}, //Rare, 1
+					{2104,2758,2095,2096,2097,2098} //Legendary, 3
 			};
 			double superiorNumGen = Math.random();
 			/** Chances

@@ -3,6 +3,7 @@ package com.arlania.world.content.global.impl;
 import com.arlania.model.Position;
 import com.arlania.util.Misc;
 import com.arlania.util.RandomUtility;
+import com.arlania.world.World;
 import com.arlania.world.content.global.GlobalBoss;
 import com.arlania.world.content.global.SpawnLocation;
 import com.arlania.world.entity.impl.player.Player;

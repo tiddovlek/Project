@@ -52,7 +52,7 @@ public class Firemaking {
 		}
 		if(!addingToFire) {
 			player.getPacketSender().sendMessage("You attempt to light a fire..");
-			player.performAnimation(new Animation(733));
+			player.performAnimation(new Animation(71));
 			player.getMovementQueue().setLockMovement(true);
 		}
 		player.setCurrentTask(new Task(addingToFire ? 2 : cycle, player, addingToFire ? true : false) {

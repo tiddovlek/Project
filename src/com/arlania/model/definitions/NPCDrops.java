@@ -422,11 +422,22 @@ public class NPCDrops {
 		if(p.getRights() == PlayerRights.OWNER) {
 			drBoost = 100;
 		}
+		if(p.getRights() == PlayerRights.LEGENDARY_DONATOR) {
+			drBoost = 5;
+		}
+		if(p.getRights() == PlayerRights.UBER_DONATOR) {
+			drBoost = 10;
+		}
 		if(p.getSummoned() == 1300) {
 			drBoost += 2;
 		}
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
 			drBoost += 2;
+		}
+		if (p.getEquipment().get(Equipment.RING_SLOT).getId() == 11531) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 4;
+		}if (p.getEquipment().get(Equipment.RING_SLOT).getId() == 11533) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 8;
 		}
 		if(p.getBetaTester()) {
 			drBoost +=4;
@@ -443,13 +454,37 @@ public class NPCDrops {
 		if(p.getRights() == PlayerRights.OWNER) {
 			drBoost = 100;
 		}
+		if(p.getRights() == PlayerRights.DONATOR) {
+			drBoost = 2;
+		}
+		if(p.getRights() == PlayerRights.SUPER_DONATOR) {
+			drBoost = 4;
+		}
+		if(p.getRights() == PlayerRights.EXTREME_DONATOR) {
+			drBoost = 6;
+		}
+		if(p.getRights() == PlayerRights.LEGENDARY_DONATOR) {
+			drBoost = 10;
+		}
+		if(p.getRights() == PlayerRights.UBER_DONATOR) {
+			drBoost = 15;
+		}
 
 		if(p.getSummoned() == 1266) {
 			drBoost += 2;
 		}
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
 			drBoost += 2;
+		}		if (p.getEquipment().get(Equipment.RING_SLOT).getId() == 11527) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 4;
+		}		if (p.getEquipment().get(Equipment.RING_SLOT).getId() == 11529) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 6;
+		}if (p.getEquipment().get(Equipment.RING_SLOT).getId() == 11531) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 8;
+		}if (p.getEquipment().get(Equipment.RING_SLOT).getId() == 11533) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			drBoost += 12;
 		}
+
 		if(p.getBetaTester()) {
 			drBoost +=4;
 		}
@@ -645,8 +680,12 @@ public class NPCDrops {
 			PlayerLogs.log(toGive.getUsername(), "" + toGive.getUsername() + " received " + itemMessage + " from " + npcName + "");
 		}
 
-		GroundItemManager.spawnGroundItem(toGive, new GroundItem(item, pos,
-				toGive.getUsername(), false, 150, goGlobal, 200));
+		if (player.getEquipment().get(Equipment.AMULET_SLOT).getId() == 11423) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth
+			player.giveItem(item.getId(),item.getAmount());
+		} else {
+			GroundItemManager.spawnGroundItem(toGive, new GroundItem(item, pos,
+					toGive.getUsername(), false, 150, goGlobal, 200));
+		}
 		DropLog.submit(toGive, new DropLogEntry(itemId, item.getAmount()));
 	}
 

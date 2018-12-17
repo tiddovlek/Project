@@ -21,7 +21,7 @@ public class TestBook {
 			pageIndex = 12;
 		player.getMovementQueue().reset();
 		player.performAnimation(new Animation(1350));
-		player.getPacketSender().sendString(903, "Lewis' Book");
+		player.getPacketSender().sendString(903, "Viper' Book");
 		for(int i = 0; i < TestBookPages[0].length; i++)
 			player.getPacketSender().sendString(843+i, TestBookPages[pageIndex][i]);
 		for(int i = 0; i < TestBookPages[1].length; i++)

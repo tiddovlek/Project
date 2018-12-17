@@ -30,7 +30,6 @@ public class Reminders {
 			{"@blu@[SERVER]@bla@ Use ::commands to find a list of commands"},
 			{"@blu@[SERVER]@bla@ Toggle your client settings to your preference in the wrench tab!"},
 			{"@blu@[SERVER]@bla@ Register and post on the forums to keep them active! ::Forum"},
-			{"@blu@[SERVER]@bla@ Donating rsgp? speak to Lewis/Drapht for more info"},
 			{"@blu@[SERVER]@bla@ Want to see something ingame? Suggest it on ::forums"},
 			
 		
