@@ -366,7 +366,7 @@ public class CommandPacketListener implements PacketListener {
 						}
 						for (com.everythingrs.donate.Donation donate : donations) {
 							player.getInventory().add(new Item(donate.product_id, donate.product_amount));
-							World.sendMessage("<img=10> <shad=0>@bla@[<col=008FB2>Donation@bla@]<col=008FB2> "+player.getUsername()+" has just Donated <col=008FB2>"+donate.product_amount+"X @bla@ for <col=008FB2>"+donate.player_name+" @bla@!");
+							World.sendMessage("<img=10> <shad=0>@bla@[@mag@Donation@bla@]@mag@ "+player.getUsername()+" @bla@has just Donated @mag@"+donate.product_amount+"X @bla@ for @mag@"+donate.product_name+" @bla@!");
 
 						}
 						player.getPacketSender().sendMessage("Thank you for donating!");
