@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92275a26-bdf4-460d-bc10-3c31bb897225" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/def/json/drops.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/json/drops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/saves/characters/Viper.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Viper.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/saves/logs/Viper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/Viper.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/engine/task/impl/NPCDeathTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/engine/task/impl/NPCDeathTask$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/engine/task/impl/NPCDeathTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/engine/task/impl/NPCDeathTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBoss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBoss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/global/GlobalBossHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,10 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BandosAva.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BandosAva.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="122">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalBossHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GlobalBossHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="281">
+              <caret line="92" column="49" lean-forward="true" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3542#3543#0" expanded="true" />
@@ -181,10 +167,10 @@
       <find>amulet of ra</find>
       <find>ranger boo</find>
       <find>kryptic</find>
-      <find>torva</find>
       <find>6522</find>
-      <find>mystery</find>
+      <find>torva</find>
       <find>4540</find>
+      <find>mystery</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -252,9 +238,9 @@
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" />
         <option value="$PROJECT_DIR$/data/def/json/drops.json" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" />
         <option value="$PROJECT_DIR$/data/def/txt/items.txt" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" />
       </list>
     </option>
   </component>
@@ -542,11 +528,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5088853" side_tool="true" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5056543" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4911147" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4911147" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4951535" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49434572" visible="true" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
@@ -914,16 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="728" column="47" selection-start-line="728" selection-start-column="47" selection-end-line="728" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
@@ -931,22 +907,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="122">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
-            <element signature="e#3575#3576#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="78166" column="13" selection-start-line="78166" selection-start-column="9" selection-end-line="78166" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -957,16 +928,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java">
+    <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="119">
+          <caret line="78166" column="13" selection-start-line="78166" selection-start-column="9" selection-end-line="78166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="728" column="47" selection-start-line="728" selection-start-column="47" selection-end-line="728" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1824#1825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="92" column="49" lean-forward="true" selection-start-line="92" selection-start-column="49" selection-end-line="92" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="e#3575#3576#0" expanded="true" />
           </folding>
         </state>
       </provider>

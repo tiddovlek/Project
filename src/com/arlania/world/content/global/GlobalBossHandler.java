@@ -91,9 +91,9 @@ public final class GlobalBossHandler {
         for(Map.Entry<Player, Integer> entry : result) {
 
             final Player killer = entry.getKey();
-
-            killer.giveItem(npc.getReward(),1);
-            killer.sendMessage("<shad=0>@bla@[@mag@Boss reward@bla@] You received 1x @mag@"+ ItemDefinition.forId(npc.getReward()).getName()+" @bla@in your inventory!");
+            int reward = npc.getReward();
+            killer.giveItem(reward,1);
+            killer.sendMessage("<shad=0>@bla@[@mag@Boss reward@bla@] You received 1x @mag@"+ ItemDefinition.forId(reward).getName()+" @bla@in your inventory!");
             if(++count >= npc.maximumDrops())
                 break;
         }

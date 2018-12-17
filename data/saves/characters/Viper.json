@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 67400369,
+  "total-play-time-ms": 67518027,
   "username": "Viper",
   "password": "tiddotjevlek1997",
   "email": "null",
@@ -10,8 +10,8 @@
   "LiquidX-points": 0,
   "loyalty-title": "NONE",
   "position": {
-    "x": 2870,
-    "y": 9960,
+    "x": 2865,
+    "y": 9954,
     "z": 0
   },
   "online-status": "ON",
@@ -20,13 +20,13 @@
   "donated": 0,
   "pvm-rank": "ONYX",
   "minutes-bonus-exp": -1,
-  "total-gained-exp": -259898877,
+  "total-gained-exp": -234932592,
   "prestige-points": 0,
   "achievement-points": 13,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 14219,
-  "total-loyalty-points": 14219.0,
+  "loyalty-points": 14252,
+  "total-loyalty-points": 14252.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -51,7 +51,7 @@
   "auto-retaliate": true,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1544856254260,
+  "last-veng": 186305320,
   "fight-type": "UNARMED_PUNCH",
   "sol-effect": 0,
   "skull-timer": 0,
@@ -253,7 +253,7 @@
       2000000000,
       0,
       -678742402,
-      1020618611,
+      1045584896,
       0,
       34880,
       8798577,
@@ -284,7 +284,7 @@
       "slot": 0
     },
     {
-      "id": 13203,
+      "id": 14011,
       "amount": 1,
       "slot": 0
     },
@@ -726,10 +726,10 @@
       "boss": false
     },
     {
-      "runningTotal": 39,
+      "runningTotal": 40,
       "npcId": 4540,
       "npcName": "Bandos Avatar",
-      "amount": 39,
+      "amount": 40,
       "boss": true
     }
   ],
@@ -1252,8 +1252,8 @@
     0,
     2,
     0,
-    77,
-    45,
+    78,
+    46,
     0,
     0
   ],
