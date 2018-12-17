@@ -16,15 +16,15 @@ public class MemberScrolls {
 			return;
 		}
 		PlayerRights rights = null;
-		if(player.getAmountDonated() >= 10)
+		if(player.getAmountDonated() >= 20)
 			rights = PlayerRights.DONATOR;
-		if(player.getAmountDonated() >= 25)
+		if(player.getAmountDonated() >= 30)
 			rights = PlayerRights.SUPER_DONATOR;
 		if(player.getAmountDonated() >= 50)
 			rights = PlayerRights.EXTREME_DONATOR;
-		if(player.getAmountDonated() >= 125)
+		if(player.getAmountDonated() >= 80)
 			rights = PlayerRights.LEGENDARY_DONATOR;
-		if(player.getAmountDonated() >= 250)
+		if(player.getAmountDonated() >= 150)
 			rights = PlayerRights.UBER_DONATOR;
 		if(rights != null && rights != player.getRights()) {
 			player.getPacketSender().sendMessage("You've become a "+Misc.formatText(rights.toString().toLowerCase())+"! Congratulations!");
