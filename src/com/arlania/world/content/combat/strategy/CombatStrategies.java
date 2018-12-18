@@ -74,6 +74,7 @@ public class CombatStrategies {
 		STRATEGIES.put(13, defaultMagicStrategy);
 		STRATEGIES.put(172, defaultMagicStrategy);
 		STRATEGIES.put(174, defaultMagicStrategy);
+		STRATEGIES.put(6102, defaultMagicStrategy);
 		STRATEGIES.put(2025, defaultMagicStrategy);
 		STRATEGIES.put(3495, defaultMagicStrategy);
 		STRATEGIES.put(3496, defaultMagicStrategy);

@@ -402,7 +402,7 @@ public final class CombatFactory {
 		case RANGED:
 			return new Hit(RandomUtility.inclusiveRandom(1, CombatFactory.calculateMaxRangedHit(entity, victim)), Hitmask.RED, CombatIcon.RANGED);
 		case MAGIC:
-			return new Hit(RandomUtility.inclusiveRandom(1, DesolaceFormulas.getMagicMaxhit(entity)), Hitmask.RED, CombatIcon.MAGIC);
+			return new Hit(RandomUtility.inclusiveRandom(1, DesolaceFormulas.getMagicMaxhit(entity, victim)), Hitmask.RED, CombatIcon.MAGIC);
 		case DRAGON_FIRE:
 			return new Hit(RandomUtility.inclusiveRandom(0, CombatFactory.calculateMaxDragonFireHit(entity, victim)), Hitmask.RED, CombatIcon.MAGIC);
 		default:

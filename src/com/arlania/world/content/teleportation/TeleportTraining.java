@@ -10,7 +10,7 @@ public class TeleportTraining extends Teleporting {
 		TELEPORT_3(new String[] {"Godzilla", ""}, new int[] {3561, 9948,0},250),
 		TELEPORT_4(new String[] {"Deadly", "Assassin"}, new int[] {3169, 2982, 0},500),
 		TELEPORT_5(new String[] {"Donkey", "Kong"}, new int[] {2793, 2773, 0},1000),
-		TELEPORT_6(new String[] {"", ""}, new int[] {},0),
+		TELEPORT_6(new String[] {"Oblivion", ""}, new int[] {1747,5323,0},1250),
 		TELEPORT_7(new String[] {"", ""}, new int[] {},0),
 		TELEPORT_8(new String[] {"", ""}, new int[] {},0),
 		TELEPORT_9(new String[] {"", ""}, new int[] {},0),

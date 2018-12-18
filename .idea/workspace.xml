@@ -2,8 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92275a26-bdf4-460d-bc10-3c31bb897225" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/itemopening/MemberScrolls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/itemopening/MemberScrolls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/def/json/drops.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/json/drops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/def/json/npc_definitions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/json/npc_definitions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/def/json/world_npcs.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/json/world_npcs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/def/txt/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/def/txt/items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/characters/Viper.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/characters/Viper.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/saves/logs/Viper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/saves/logs/Viper.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/CommandPacketListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/net/packet/impl/ItemActionPacketListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatHookTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/CombatHookTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/DesolaceFormulas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/DesolaceFormulas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$48.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/magic/CombatSpells.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/CombatStrategies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/CombatStrategies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/itemopening/MemberScrolls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/itemopening/MemberScrolls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/teleportation/TeleportTraining$Training.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/com/arlania/world/content/teleportation/TeleportTraining$Training.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/DesolaceFormulas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/DesolaceFormulas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/CombatStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/CombatStrategies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,37 +87,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BandosAva.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java">
+    <leaf>
+      <file leaf-file-name="npc_definitions.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/def/json/npc_definitions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="60" column="86" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1824#1825#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="89778" column="21" lean-forward="true" selection-start-line="89778" selection-start-column="21" selection-end-line="89778" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Firemaking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/firemaking/Firemaking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state relative-caret-position="120">
+              <caret line="100130" column="10" selection-start-line="100130" selection-start-column="6" selection-end-line="100130" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -52,72 +100,98 @@
       <file leaf-file-name="drops.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/def/json/drops.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="61379" column="5" lean-forward="true" selection-start-line="61379" selection-start-column="5" selection-end-line="61379" selection-end-column="5" />
+            <state relative-caret-position="299">
+              <caret line="61458" column="11" lean-forward="true" selection-start-line="61458" selection-start-column="11" selection-end-line="61458" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemActionPacketListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java">
+      <file leaf-file-name="CombatSpells.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="759" column="49" selection-start-line="759" selection-start-column="49" selection-end-line="759" selection-end-column="49" />
+            <state relative-caret-position="139">
+              <caret line="329" column="27" selection-start-line="329" selection-start-column="27" selection-end-line="329" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#7199#7200#0" expanded="true" />
+                <element signature="e#7248#7249#0" expanded="true" />
+                <element signature="e#7483#7484#0" expanded="true" />
+                <element signature="e#7551#7552#0" expanded="true" />
+                <element signature="e#7592#7593#0" expanded="true" />
+                <element signature="e#7610#7611#0" expanded="true" />
+                <element signature="e#7667#7668#0" expanded="true" />
+                <element signature="e#7713#7714#0" expanded="true" />
+                <element signature="e#7758#7759#0" expanded="true" />
+                <element signature="e#7776#7777#0" expanded="true" />
+                <element signature="e#7850#7851#0" expanded="true" />
+                <element signature="e#7882#7883#0" expanded="true" />
+                <element signature="e#7954#7955#0" expanded="true" />
+                <element signature="e#7998#7999#0" expanded="true" />
+                <element signature="e#8097#8098#0" expanded="true" />
+                <element signature="e#8114#8115#0" expanded="true" />
+                <element signature="e#8152#8153#0" expanded="true" />
+                <element signature="e#8172#8173#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NPCDrops.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java">
+      <file leaf-file-name="DesolaceFormulas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/DesolaceFormulas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3310">
-              <caret line="686" column="49" selection-start-line="686" selection-start-column="49" selection-end-line="686" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="844" column="32" lean-forward="true" selection-start-line="844" selection-start-column="32" selection-end-line="844" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java">
+      <file leaf-file-name="CombatFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="1736" column="38" selection-start-line="1736" selection-start-column="16" selection-end-line="1736" selection-end-column="38" />
-              <folding>
-                <element signature="e#49463#49464#0" expanded="true" />
-                <element signature="e#49499#49500#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="407" column="16" lean-forward="true" selection-start-line="407" selection-start-column="16" selection-end-line="407" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CharmingImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/summoning/CharmingImp.java">
+      <file leaf-file-name="CombatHookTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="285">
+              <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandPacketListener.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java">
+      <file leaf-file-name="TeleportTraining.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="372" column="66" selection-start-line="372" selection-start-column="66" selection-end-line="372" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Viper.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/saves/characters/Viper.json">
+      <file leaf-file-name="KreeArra.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/KreeArra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="-463" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultMagicCombatStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="157" column="24" lean-forward="true" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="166455" column="12" lean-forward="true" selection-start-line="166455" selection-start-column="12" selection-end-line="166455" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -133,41 +207,42 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pernix</find>
-      <find>an ancient ma</find>
-      <find>virtus</find>
-      <find>amulet of ra</find>
-      <find>ranger boo</find>
-      <find>kryptic</find>
-      <find>6522</find>
-      <find>mystery</find>
-      <find>deadly assa</find>
-      <find>nature</find>
-      <find>nature t</find>
-      <find>bandos ava</find>
-      <find>picture</find>
-      <find>torva</find>
-      <find>assasin</find>
-      <find>assassin</find>
-      <find>you attempt to li</find>
-      <find>733</find>
-      <find>donator</find>
-      <find>nature torva</find>
-      <find>ring of wealth</find>
-      <find>4540</find>
-      <find>player.put</find>
-      <find>&quot;donate&quot;</find>
-      <find>Derp</find>
-      <find>7100</find>
-      <find>groundItem</find>
       <find>6199</find>
       <find>&quot;claim&quot;</find>
       <find>player.getAmount</find>
+      <find>4540</find>
+      <find>dragon</find>
+      <find>&quot;donkey</find>
+      <find>enraged ba</find>
+      <find>750</find>
+      <find>749</find>
+      <find>brutal green</find>
+      <find>5362</find>
+      <find>waterfiend</find>
+      <find>5361</find>
+      <find>6104</find>
+      <find>6105</find>
+      <find>groundItem</find>
+      <find>7100</find>
+      <find>skeleton warlord</find>
+      <find>weaponAnimations</find>
+      <find>obli</find>
+      <find>customstaff</find>
+      <find>oblivion</find>
+      <find>&quot;volde</find>
+      <find>174</find>
+      <find>spellmax</find>
+      <find>bandos</find>
+      <find>armady</find>
+      <find>npc</find>
+      <find>6102</find>
+      <find>staff</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/.idea</dir>
       <dir>$PROJECT_DIR$/lib</dir>
+      <dir>$PROJECT_DIR$/src/com/arlania/world</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -184,19 +259,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/smithing/SmithingData.java" />
-        <option value="$PROJECT_DIR$/data/saves/Bans.txt" />
         <option value="$PROJECT_DIR$/data/saves/IPBans.txt" />
         <option value="$PROJECT_DIR$/data/saves/IPMutes.txt" />
         <option value="$PROJECT_DIR$/.gitignore." />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/ButtonClickPacketListener.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/Teleporting.java" />
-        <option value="$PROJECT_DIR$/data/def/json/world_npcs.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/model/definitions/WeaponAnimations.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/NPCOptionPacketListener.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/EquipPacketListener.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/DesolaceFormulas.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultMeleeCombatStrategy.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/engine/task/impl/FamiliarSpawnTask.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/PlayerLoading.java" />
@@ -211,33 +282,39 @@
         <option value="$PROJECT_DIR$/data/def/json/weapon_interfaces.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/PlayerHandler.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/MonsterDrops.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" />
         <option value="$PROJECT_DIR$/data/saves/characters/Tiddo.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/slayer/SlayerTasks.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/SeaQueen.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportBosses.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/model/Locations.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/BandosAvatar.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/WildyWyrm.java" />
-        <option value="$PROJECT_DIR$/data/def/json/npc_definitions.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" />
-        <option value="$PROJECT_DIR$/data/def/json/drops.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/impl/BandosAva.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/firemaking/Firemaking.java" />
         <option value="$PROJECT_DIR$/data/saves/characters/Viper.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java" />
-        <option value="$PROJECT_DIR$/data/def/txt/items.txt" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java" />
+        <option value="$PROJECT_DIR$/data/def/json/world_npcs.json" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" />
+        <option value="$PROJECT_DIR$/data/def/json/drops.json" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/DesolaceFormulas.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java" />
+        <option value="$PROJECT_DIR$/data/def/txt/items.txt" />
+        <option value="$PROJECT_DIR$/data/def/json/npc_definitions.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="15" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="778" />
@@ -247,9 +324,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -523,12 +600,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51130855" side_tool="true" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4927302" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4927302" weight="0.32965517" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -547,13 +624,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.32965517" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -563,9 +640,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4927302" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51130855" side_tool="true" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4951535" weight="0.32965517" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -575,51 +652,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/ProfileViewing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="193" column="39" selection-start-line="193" selection-start-column="39" selection-end-line="193" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/netty-3.5.8.Final.jar!/org/jboss/netty/buffer/ChannelBuffer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="143" column="11" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/Packet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="247" column="26" lean-forward="true" selection-start-line="247" selection-start-column="26" selection-end-line="247" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/PlayerSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="83" column="12" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/summoning/Pouch.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/WithdrawMoneyFromPouchPacketListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportSkilling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportPlayerKilling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -725,35 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/impl/WildyWyrm.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="239" column="17" lean-forward="true" selection-start-line="239" selection-start-column="17" selection-end-line="239" selection-end-column="17" />
-          <folding>
-            <element signature="e#5875#5876#0" expanded="true" />
-            <element signature="e#5918#5919#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportBosses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -765,20 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="1415" column="9" lean-forward="true" selection-start-line="1415" selection-start-column="9" selection-end-line="1415" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1204">
-          <caret line="992" column="75" selection-start-line="992" selection-start-column="75" selection-end-line="992" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/def/json/npc_definitions.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="100133" selection-start-line="100133" selection-end-line="100133" />
         </state>
       </provider>
     </entry>
@@ -902,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/def/json/drops.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="61379" column="5" lean-forward="true" selection-start-line="61379" selection-start-column="5" selection-end-line="61379" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/summoning/CharmingImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -916,20 +899,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="89778" column="21" lean-forward="true" selection-start-line="89778" selection-start-column="21" selection-end-line="89778" selection-end-column="21" />
+        <state relative-caret-position="1053">
+          <caret line="759" column="49" selection-start-line="759" selection-start-column="49" selection-end-line="759" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java">
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3310">
-          <caret line="686" column="49" selection-start-line="686" selection-start-column="49" selection-end-line="686" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="372" column="66" selection-start-line="372" selection-start-column="66" selection-end-line="372" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/def/json/world_npcs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11453" column="18" lean-forward="true" selection-start-line="11453" selection-start-column="18" selection-end-line="11453" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -944,20 +931,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="759" column="49" selection-start-line="759" selection-start-column="49" selection-end-line="759" selection-end-column="49" />
+        <state relative-caret-position="519">
+          <caret line="476" column="25" lean-forward="true" selection-start-line="476" selection-start-column="25" selection-end-line="476" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/CommandPacketListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/WeaponAnimations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="372" column="66" selection-start-line="372" selection-start-column="66" selection-end-line="372" selection-end-column="66" />
+        <state relative-caret-position="21">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CustomMagicStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHitTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/def/json/drops.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="61458" column="11" lean-forward="true" selection-start-line="61458" selection-start-column="11" selection-end-line="61458" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/KreeArra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultMagicCombatStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="157" column="24" lean-forward="true" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/magic/CombatSpells.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="329" column="27" selection-start-line="329" selection-start-column="27" selection-end-line="329" selection-end-column="27" />
+          <folding>
+            <element signature="e#7199#7200#0" expanded="true" />
+            <element signature="e#7248#7249#0" expanded="true" />
+            <element signature="e#7483#7484#0" expanded="true" />
+            <element signature="e#7551#7552#0" expanded="true" />
+            <element signature="e#7592#7593#0" expanded="true" />
+            <element signature="e#7610#7611#0" expanded="true" />
+            <element signature="e#7667#7668#0" expanded="true" />
+            <element signature="e#7713#7714#0" expanded="true" />
+            <element signature="e#7758#7759#0" expanded="true" />
+            <element signature="e#7776#7777#0" expanded="true" />
+            <element signature="e#7850#7851#0" expanded="true" />
+            <element signature="e#7882#7883#0" expanded="true" />
+            <element signature="e#7954#7955#0" expanded="true" />
+            <element signature="e#7998#7999#0" expanded="true" />
+            <element signature="e#8097#8098#0" expanded="true" />
+            <element signature="e#8114#8115#0" expanded="true" />
+            <element signature="e#8152#8153#0" expanded="true" />
+            <element signature="e#8172#8173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/DesolaceFormulas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="844" column="32" lean-forward="true" selection-start-line="844" selection-start-column="32" selection-end-line="844" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="407" column="16" lean-forward="true" selection-start-line="407" selection-start-column="16" selection-end-line="407" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="166455" column="12" lean-forward="true" selection-start-line="166455" selection-start-column="12" selection-end-line="166455" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/def/json/npc_definitions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="100130" column="10" selection-start-line="100130" selection-start-column="6" selection-end-line="100130" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -61427,6 +61427,54 @@
         "chance": 3
       }
     ]
+  }, {
+    "npcIds": [
+      6102
+    ],
+    "drops": [
+      {
+        "id": 3683,
+        "count": [
+          1
+        ],
+        "chance": 7
+      },
+      {
+        "id": 3684,
+        "count": [
+          1
+        ],
+        "chance": 7
+      },
+      {
+        "id": 3685,
+        "count": [
+          1
+        ],
+        "chance": 7
+      },
+      {
+        "id": 21061,
+        "count": [
+          1
+        ],
+        "chance": 7
+      },
+      {
+        "id": 12160,
+        "count": [
+          1
+        ],
+        "chance": 3
+      },
+      {
+        "id": 12163,
+        "count": [
+          1
+        ],
+        "chance": 3
+      }
+    ]
   },
   {
     "npcIds": [

@@ -76,6 +76,10 @@ public class DefaultMagicCombatStrategy implements CombatStrategy {
 			case 174:
 				npc.prepareSpell(RandomUtility.randomElement(new CombatSpells[] { CombatSpells.WEAKEN, CombatSpells.FIRE_STRIKE, CombatSpells.EARTH_STRIKE, CombatSpells.WATER_STRIKE }).getSpell(), victim);
 				break;
+				case 6102:
+					npc.prepareSpell(RandomUtility.randomElement(new CombatSpells[] {  CombatSpells.OBLIVION }).getSpell(), victim);
+
+					break;
 			case 2025:
 			case 1643:
 				npc.prepareSpell(RandomUtility.randomElement(new CombatSpells[] {CombatSpells.FIRE_WAVE, CombatSpells.EARTH_WAVE, CombatSpells.WATER_WAVE }).getSpell(), victim);

@@ -586,12 +586,13 @@ public class DesolaceFormulas {
      * @param player The player to calculate magic max hit for
      * @return The player's magic max hit damage
      */
-    public static int getMagicMaxhit(Character c) {
+    public static int getMagicMaxhit(Character c, Character victim) {
         int damage = 0;
         CombatSpell spell = c.getCurrentlyCasting();
         if (spell != null) {
             if (spell.maximumHit() > 0)
                 damage += spell.maximumHit();
+
             else {
                 if (c.isNpc()) {
                     damage = ((NPC) c).getDefinition().getMaxHit();
@@ -651,6 +652,206 @@ public class DesolaceFormulas {
         if (maxHit > 0) {
             if (damage > maxHit) {
                 damage = maxHit;
+            }
+        }
+
+
+        if (c.isPlayer()) {
+            NPC npc = (NPC) victim;
+            Player plr = (Player) c;
+
+            if (npc.getDefinition().getExamine() != null) {
+                String npcElemental = npc.getDefinition().getExamine();
+                ItemDefinition wep = ItemDefinition.forId(plr.getEquipment().get(Equipment.WEAPON_SLOT).getId());
+                int elemental = wep.getElemental();
+                switch (elemental) {
+                    case 1: //fire wep
+                        if (npcElemental.contains("Grass")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a grass type monster");
+                            }
+                        } else if (npcElemental.contains("Dark")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a dark type monster");
+                            }
+                        } else if (npcElemental.contains("Mythical")) {
+                            damage *= 1.10;
+                            plr.getPacketSender().sendMessage("Your weapon does extra damage against a Mythical type monster");
+                        } else if (npcElemental.contains("Earth")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a earth type monster");
+                            }
+                        } else if (npcElemental.contains("Water")) {
+
+                            damage *= 0.90;
+
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a water type monster");
+                            }
+                        }
+                        break;
+                    case 2: //water wep
+                        if (npcElemental.contains("Fire")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a fire type monster");
+                            }
+                        } else if (npcElemental.contains("Earth")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a Earth type monster");
+                            }
+                        } else if (npcElemental.contains("Grass")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a Grass type monster");
+                            }
+                        }
+                        break;
+                    case 3: //earth wep
+                        if (npcElemental.contains("Fire")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a fire type monster");
+                            }
+                        } else if (npcElemental.contains("Earth")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a Earth type monster");
+                            }
+                        } else if (npcElemental.contains("Grass")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a water type monster");
+                            }
+                        } else if (npcElemental.contains("Water")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a water type monster");
+                            }
+                        }
+                        break;
+                    case 4: //grass wep
+                        if (npcElemental.contains("Water")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a Water type monster");
+                            }
+                        } else if (npcElemental.contains("Earth")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a Earth type monster");
+                            }
+                        } else if (npcElemental.contains("Fire")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a Fire type monster");
+                            }
+                        } else if (npcElemental.contains("Mytical")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a Mythical type monster");
+                            }
+                        }
+                        break;
+                    case 5: //light wep
+                        if (npcElemental.contains("Dark")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a dark type monster");
+                            }
+                        } else if (npcElemental.contains("Fire")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a Fire type monster");
+                            }
+                        }
+                        break;
+                    case 6: //dark wep
+                        if (npcElemental.contains("Light")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a dark type monster");
+                            }
+                        } else if (npcElemental.contains("Earth")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a Earth type monster");
+                            }
+                        }
+                        break;
+                    case 7: //Mytical wep
+                        if (npcElemental.contains("Fire")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a dark type monster");
+                            }
+                        } else if (npcElemental.contains("Water")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a dark type monster");
+                            }
+                        } else if (npcElemental.contains("Mythical")) {
+                            damage *= 1.10;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does extra damage against a Mythical type monster");
+                            }
+                        } else if (npcElemental.contains("Earth")) {
+                            damage *= 0.90;
+                            if (plr.sendElementalMessage == true) {
+                                plr.setSendElementalMessage(false);
+
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a Earth type monster");
+                            }
+                        }
+                        break;
+                }
             }
         }
 

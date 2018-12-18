@@ -11,7 +11,8 @@ import com.arlania.world.entity.impl.player.Player;
 public class CustomMagicStaff {
 
     public static enum CustomStaff {
-        KRYPTIC_STAFF(new int[] { 13215 }, CombatSpells.KYRPTIC_SPELL.getSpell());
+        KRYPTIC_STAFF(new int[] { 13215 }, CombatSpells.KYRPTIC_SPELL.getSpell()),
+        OBLIVIONSTAFF(new int[] { 21061 }, CombatSpells.OBLIVION.getSpell());
 
         private int[] itemIds;
         private CombatSpell spell;

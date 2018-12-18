@@ -309,6 +309,57 @@ public enum CombatSpells {
 		public int spellId() {
 			return 1156;
 		}
+	}),OBLIVION(new CombatNormalSpell() {
+		@Override
+		public Optional<Animation> castAnimation() {
+			return Optional.of(new Animation(14222));
+		}
+
+		@Override
+		public Optional<Projectile> castProjectile(Character cast, Character castOn) {
+			return Optional.of(new Projectile(cast, castOn, 1547, 44, 3, 43, 31,
+					0));
+		}
+
+		@Override
+		public Optional<Graphic> endGraphic() {
+			return Optional.of(new Graphic(1548, GraphicHeight.MIDDLE));
+		}
+
+		@Override
+		public int maximumHit() {
+			return 5000;
+		}
+
+		@Override
+		public Optional<Graphic> startGraphic() {
+			return Optional.of(new Graphic(1546));
+		}
+
+		@Override
+		public int baseExperience() {
+			return 67;
+		}
+
+		@Override
+		public Optional<Item[]> equipmentRequired(Player player) {
+			return Optional.empty();
+		}
+
+		@Override
+		public Optional<Item[]> itemsRequired(Player player) {
+			return Optional.of(new Item[] {  });
+		}
+
+		@Override
+		public int levelRequired() {
+			return 0;
+		}
+
+		@Override
+		public int spellId() {
+			return 1156;
+		}
 	}),
 	WEAKEN(new CombatEffectSpell() {
 		@Override
