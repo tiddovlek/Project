@@ -158,13 +158,16 @@ public class NPCDeathTask extends Task {
 						stop();
 						return;
 					}
-					
-					
-					
+
+
+
 					/*
 					 * Halloween event dropping
 					 */
-					
+
+					if(npc.getId() == 6303) {
+						Abbadon.handleDrop();
+					}
 					if(npc.getId() == 1973) {
 						TrioBosses.handleSkeleton(killer, npc.getPosition());
 					}
@@ -174,9 +177,9 @@ public class NPCDeathTask extends Task {
 					if(npc.getId() == 103) {
 						TrioBosses.handleGhost(killer, npc.getPosition());
 					}
-					if(npc instanceof GlobalBoss)
-						GlobalBossHandler.onDeath((GlobalBoss)npc);
-					
+					if(npc instanceof Abbadon)
+						Abbadon.handleDrop();
+
 					/*
 					 * End Halloween event dropping
 					 */

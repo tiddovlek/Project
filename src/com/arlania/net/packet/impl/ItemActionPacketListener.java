@@ -19,17 +19,7 @@ import com.arlania.net.packet.PacketListener;
 import com.arlania.util.Misc;
 import com.arlania.util.RandomUtility;
 import com.arlania.world.World;
-import com.arlania.world.content.ChristmasPresent;
-import com.arlania.world.content.ClueScrolls;
-import com.arlania.world.content.Consumables;
-import com.arlania.world.content.Digging;
-import com.arlania.world.content.Effigies;
-import com.arlania.world.content.ExperienceLamps;
-import com.arlania.world.content.Gambling;
-import com.arlania.world.content.MoneyPouch;
-import com.arlania.world.content.PetBox;
-import com.arlania.world.content.Sounds;
-import com.arlania.world.content.TrioBosses;
+import com.arlania.world.content.*;
 import com.arlania.world.content.books.TestBook;
 import com.arlania.world.content.Sounds.Sound;
 import com.arlania.world.content.combat.range.DwarfMultiCannon;
@@ -1106,6 +1096,58 @@ public class ItemActionPacketListener implements PacketListener {
 				player.getPacketSender().sendMessage("You need an eternal cape and 5000 Boss fragments to upgrade your cape.");
 			}
 			break;
+			case 12421:
+				if(player.getRights() == PlayerRights.DONATOR ||player.getRights() == PlayerRights.SUPER_DONATOR || player.getRights() == PlayerRights.EXTREME_DONATOR || player.getRights() == PlayerRights.LEGENDARY_DONATOR ||player.getRights() == PlayerRights.UBER_DONATOR){
+					player.sendMessage("You already have a higher tier donator rank!");
+				} else {
+					player.setRights(PlayerRights.DONATOR);
+					player.getInventory().delete(12421,	1);
+					PlayerPanel.refreshPanel(player);
+					World.sendMessage("<shad=0>@bla@[@red@Donator@bla@] @red@"+player.getUsername()+" @bla@ Has just claimed his @red@donator rank@bla@!");
+				}
+				break;
+				case 12422:
+				if(player.getRights() == PlayerRights.EXTREME_DONATOR ||player.getRights() == PlayerRights.SUPER_DONATOR || player.getRights() == PlayerRights.LEGENDARY_DONATOR ||player.getRights() == PlayerRights.UBER_DONATOR){
+					player.sendMessage("You already have a higher tier donator rank!");
+				} else {
+					player.setRights(PlayerRights.SUPER_DONATOR);
+					player.getInventory().delete(12422,	1);
+					PlayerPanel.refreshPanel(player);
+					World.sendMessage("<shad=0>@bla@[@gre@Super Donator@bla@] @gre@"+player.getUsername()+" @bla@ Has just claimed his @gre@super donator rank@bla@!");
+				}
+				break;
+				case 12423:
+				if(player.getRights() == PlayerRights.EXTREME_DONATOR ||player.getRights() == PlayerRights.LEGENDARY_DONATOR ||player.getRights() == PlayerRights.UBER_DONATOR){
+					player.sendMessage("You already have a higher tier donator rank!");
+				} else {
+					player.setRights(PlayerRights.EXTREME_DONATOR);
+					player.getInventory().delete(12423,	1);
+					PlayerPanel.refreshPanel(player);
+					World.sendMessage("<shad=0>@bla@[@mag@Extreme Donator@bla@] @mag@"+player.getUsername()+" @bla@ Has just claimed his @mag@extreme donator rank@bla@!");
+				}
+				break;
+				case 12424:
+				if(player.getRights() == PlayerRights.LEGENDARY_DONATOR || player.getRights() == PlayerRights.UBER_DONATOR){
+					player.sendMessage("You already have a higher tier donator rank!");
+				} else {
+					player.setRights(PlayerRights.LEGENDARY_DONATOR);
+					player.getInventory().delete(12424,	1);
+					PlayerPanel.refreshPanel(player);
+					World.sendMessage("<shad=0>@bla@[@yel@Legendary Donator@bla@] @yel@"+player.getUsername()+" @bla@ Has just claimed his @yel@Legendary donator rank@bla@!");
+				}
+				break;
+
+				case 12425:
+				if(player.getRights() == PlayerRights.UBER_DONATOR){
+					player.sendMessage("You already have a higher tier donator rank!");
+				} else {
+					player.setRights(PlayerRights.UBER_DONATOR);
+					player.getInventory().delete(12425,	1);
+					PlayerPanel.refreshPanel(player);
+					World.sendMessage("<shad=0>@bla@[@cya@Uber Donator@bla@] @cya@"+player.getUsername()+" @bla@ Has just claimed his @cya@uber donator rank@bla@!");
+				}
+				break;
+
 			// SLAYER HELMET UPGRADES //
 					case 13263: //NORMAL UPGRADE TO LIME
 								if(player.getInventory().contains(13263) && player.getInventory().getAmount(11320) >= 1250 && player.getInventory().getAmount(11316) >= 2500) {

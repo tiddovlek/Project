@@ -8,6 +8,7 @@ import com.arlania.model.definitions.WeaponInterfaces.WeaponInterface;
 import com.arlania.world.content.combat.CombatContainer;
 import com.arlania.world.content.combat.CombatType;
 import com.arlania.world.content.combat.strategy.CombatStrategy;
+import com.arlania.world.content.global.GlobalBoss;
 import com.arlania.world.content.minigames.impl.Dueling;
 import com.arlania.world.content.minigames.impl.Dueling.DuelRule;
 import com.arlania.world.entity.impl.Character;
@@ -60,7 +61,7 @@ public class DefaultMeleeCombatStrategy implements CombatStrategy {
     public int attackDistance(Character entity) {
 
         // The default distance for all npcs using melee is 1.
-        if (entity.isNpc()) {
+        if (entity.isNpc() || entity instanceof GlobalBoss) {
             return ((NPC)entity).getDefinition().getSize();
         }
 

@@ -15,6 +15,8 @@ import com.arlania.world.content.combat.strategy.CombatStrategies;
 import com.arlania.world.content.combat.strategy.CombatStrategy;
 import com.arlania.world.content.combat.strategy.impl.KalphiteQueen;
 import com.arlania.world.content.combat.strategy.impl.Nex;
+import com.arlania.world.content.global.GlobalBoss;
+import com.arlania.world.content.global.GlobalBossHandler;
 import com.arlania.world.content.minigames.impl.Cows;
 import com.arlania.world.content.skill.impl.hunter.Hunter;
 import com.arlania.world.content.skill.impl.hunter.PuroPuro;
@@ -185,18 +187,18 @@ public class NPC extends Character {
 	@Override
 	public CombatStrategy determineStrategy() {
 		return CombatStrategies.getStrategy(id);
+
 	}
 
 	public boolean switchesVictim() {
 		if(getLocation() == Location.DUNGEONEERING) {
 			return true;
 		}
-		return id == 6263 || id == 6265 || id == 6203 || id == 6208 || id == 6206 || id == 6247 || id == 6250 || id == 3200 || id == 4540 || id == 1158 || id == 1160 || id == 8133 || id == 13447 || id == 13451 || id == 13452 || id == 13453 || id == 13454 || id == 2896 || id == 2882 || id == 2881 || id == 6260;
+		return id == 6263 || id == 6265 ||id == 6303 || id == 6203 || id == 6208 || id == 6206 || id == 6247 || id == 6250 || id == 3200 || id == 4540 || id == 1158 || id == 1160 || id == 8133 || id == 13447 || id == 13451 || id == 13452 || id == 13453 || id == 13454 || id == 2896 || id == 2882 || id == 2881 || id == 6260;
 	}
 
 	public int getAggressionDistance() {
 		int distance = 7;
-		
 		/*switch(id) {
 		}*/
 		if(Nex.nexMob(id)) {

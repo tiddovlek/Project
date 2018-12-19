@@ -9,6 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+import com.arlania.world.content.*;
 import mysql.MySQLController;
 
 import org.jboss.netty.bootstrap.ServerBootstrap;
@@ -26,14 +27,6 @@ import com.arlania.model.definitions.WeaponInterfaces;
 import com.arlania.net.PipelineFactory;
 import com.arlania.net.security.ConnectionHandler;
 import com.arlania.world.clip.region.RegionClipping;
-import com.arlania.world.content.CustomObjects;
-import com.arlania.world.content.Lottery;
-import com.arlania.world.content.MonsterDrops;
-import com.arlania.world.content.PlayerPunishment;
-import com.arlania.world.content.ProfileViewing;
-import com.arlania.world.content.Scoreboards;
-import com.arlania.world.content.VotingContest;
-import com.arlania.world.content.WellOfGoodwill;
 import com.arlania.world.content.clan.ClanChatManager;
 import com.arlania.world.content.combat.effect.CombatPoisonEffect.CombatPoisonData;
 import com.arlania.world.content.combat.strategy.CombatStrategies;
@@ -136,17 +129,17 @@ public final class GameLoader {
 		serviceLoader.execute(() -> WellOfGoodwill.init());
 		serviceLoader.execute(() -> ClanChatManager.init());
 		serviceLoader.execute(() -> CombatPoisonData.init());
-		serviceLoader.execute(() -> CombatStrategies.init());
 		serviceLoader.execute(() -> NpcDefinition.parseNpcs().load());
 		serviceLoader.execute(() -> NPCDrops.parseDrops().load());
 		serviceLoader.execute(() -> WeaponInterfaces.parseInterfaces().load());
 		serviceLoader.execute(() -> ShopManager.parseShops().load());
 		serviceLoader.execute(() -> DialogueManager.parseDialogues().load());
+		serviceLoader.execute(() -> CombatStrategies.init());
 		serviceLoader.execute(() -> NPC.init());
 		serviceLoader.execute(() -> ProfileViewing.init());
 		serviceLoader.execute(() -> PlayerOwnedShopManager.loadShops());
 		serviceLoader.execute(() -> MonsterDrops.initialize());
-		
+
 		serviceLoader.execute(GlobalBossHandler::init);
 		
 	}

@@ -1498,6 +1498,20 @@ public final class CombatFactory {
 					}
 				}
 			}
+			if(p.getEquipment().get(Equipment.WEAPON_SLOT).getId() == 21080 || p.getEquipment().get(Equipment.WEAPON_SLOT).getId() == 17847 || p.getEquipment().get(Equipment.WEAPON_SLOT).getId() == 21079) {
+					final int form = (int) (damage / 10);
+					TaskManager.submit(new Task(1, p, false) {
+						@Override
+						public void execute() {
+							if(!(attacker == null || target == null || attacker.getConstitution() <= 0)) {
+								p.getSkillManager().setCurrentLevel(Skill.CONSTITUTION, p.getSkillManager().getCurrentLevel(Skill.CONSTITUTION) + form);
+								if(p.getSkillManager().getCurrentLevel(Skill.CONSTITUTION) > p.getSkillManager().getMaxLevel(Skill.CONSTITUTION))
+									p.getSkillManager().setCurrentLevel(Skill.CONSTITUTION, p.getSkillManager().getMaxLevel(Skill.CONSTITUTION));
+							}
+							stop();
+						}
+					});
+			}
 			if(CurseHandler.isActivated(p, CurseHandler.SOUL_SPLIT) && damage > 0) {		
 				final int form = (int) (damage / 10);
 				new Projectile(attacker, target, 2263, 44, 3, 43, 31, 0).sendProjectile();

@@ -31,7 +31,15 @@ public class BandosAva extends GlobalBoss {
     }
 
     @Override
-    protected void handleDrop(Player player) {
+    public boolean isNpc() {
+        return true;
+    }
+
+    @Override
+    public int getAggressionDistance() {
+        int distance = 7;
+
+        return distance;
     }
 
     @Override

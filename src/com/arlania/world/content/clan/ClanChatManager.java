@@ -725,7 +725,7 @@ public class ClanChatManager {
 				player.getPacketSender().sendMessage("<img=10> <col=660099>Feel free to join the 'Help' clanchat channel to talk to other players.");
 			}
 		}
-		ClanChatManager.join(player, "Help");;
+		ClanChatManager.join(player, "viper");;
 	}
 
 	public static void resetInterface(Player player) {

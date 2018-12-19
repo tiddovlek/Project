@@ -165,7 +165,7 @@ public class DesolaceFormulas {
                                     if (plr.sendElementalMessage == true) {
                                         plr.setSendElementalMessage(false);
 
-                                        plr.getPacketSender().sendMessage("Your weapon does less damage against a water type monster");
+                                        plr.getPacketSender().sendMessage("Your weapon does less damage against a grass type monster");
                                     }
                                 } else if (npcElemental.contains("Water")) {
                                     base *= 0.90;
@@ -744,7 +744,7 @@ public class DesolaceFormulas {
                             if (plr.sendElementalMessage == true) {
                                 plr.setSendElementalMessage(false);
 
-                                plr.getPacketSender().sendMessage("Your weapon does less damage against a water type monster");
+                                plr.getPacketSender().sendMessage("Your weapon does less damage against a grass type monster");
                             }
                         } else if (npcElemental.contains("Water")) {
                             damage *= 0.90;

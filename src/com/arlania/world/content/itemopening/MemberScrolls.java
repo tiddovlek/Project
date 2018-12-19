@@ -12,25 +12,25 @@ import com.arlania.world.entity.impl.player.Player;
 public class MemberScrolls {
 	
 	public static void checkForRankUpdate(Player player) {
-		if(player.getRights().isStaff()) {
-			return;
-		}
-		PlayerRights rights = null;
-		if(player.getAmountDonated() >= 20)
-			rights = PlayerRights.DONATOR;
-		if(player.getAmountDonated() >= 30)
-			rights = PlayerRights.SUPER_DONATOR;
-		if(player.getAmountDonated() >= 50)
-			rights = PlayerRights.EXTREME_DONATOR;
-		if(player.getAmountDonated() >= 80)
-			rights = PlayerRights.LEGENDARY_DONATOR;
-		if(player.getAmountDonated() >= 150)
-			rights = PlayerRights.UBER_DONATOR;
-		if(rights != null && rights != player.getRights()) {
-			player.getPacketSender().sendMessage("You've become a "+Misc.formatText(rights.toString().toLowerCase())+"! Congratulations!");
-			player.setRights(rights);
-			player.getPacketSender().sendRights();
-		}
+//		if(player.getRights().isStaff()) {
+//			return;
+//		}
+//		PlayerRights rights = null;
+//		if(player.getAmountDonated() >= 20)
+//			rights = PlayerRights.DONATOR;
+//		if(player.getAmountDonated() >= 30)
+//			rights = PlayerRights.SUPER_DONATOR;
+//		if(player.getAmountDonated() >= 50)
+//			rights = PlayerRights.EXTREME_DONATOR;
+//		if(player.getAmountDonated() >= 80)
+//			rights = PlayerRights.LEGENDARY_DONATOR;
+//		if(player.getAmountDonated() >= 150)
+//			rights = PlayerRights.UBER_DONATOR;
+//		if(rights != null && rights != player.getRights()) {
+//			player.getPacketSender().sendMessage("You've become a "+Misc.formatText(rights.toString().toLowerCase())+"! Congratulations!");
+//			player.setRights(rights);
+//			player.getPacketSender().sendRights();
+//		}
 	}
 
 	public static boolean handleScroll(Player player, int item) {
@@ -44,7 +44,6 @@ public class MemberScrolls {
 			player.incrementAmountDonated(funds);
 			player.getPointsHandler().incrementDonationPoints(funds);
 			player.getPacketSender().sendMessage("Your account has gained funds worth $"+funds+". Your total is now at $"+player.getAmountDonated()+".");
-			checkForRankUpdate(player);
 			PlayerPanel.refreshPanel(player);
 			break;
 		}

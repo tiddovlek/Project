@@ -249,7 +249,8 @@ public final class WeaponAnimations {
 				return 128;
 			case 21033:
 				return 68;
-
+            case 17847:
+                return 2345;
 			case 21003:
 				return 482;
 			case 20102:
@@ -267,6 +268,8 @@ public final class WeaponAnimations {
 			return 1074;
 		if(weaponId == 21013)
 			return 440;
+		if(weaponId == 21080)
+			return 427;
 		if(weaponId == 20102)
 			return 2890;
 		if(weaponId == 21002 || weaponId == 21003 || weaponId == 21004|| weaponId == 21030|| weaponId == 21031|| weaponId == 21032|| weaponId == 21033)
@@ -487,6 +490,8 @@ public final class WeaponAnimations {
 		case 18930:
 		case 18957:
 			return 11974;
+		case 21079:
+		    return 427;
 		case 15486:
 		case 15502:
 		case 22209:

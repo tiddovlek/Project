@@ -21,11 +21,7 @@ import com.arlania.util.JsonLoader;
 import com.arlania.util.Misc;
 import com.arlania.util.RandomUtility;
 import com.arlania.world.World;
-import com.arlania.world.content.ClueScrolls;
-import com.arlania.world.content.DropLog;
-import com.arlania.world.content.PlayerLogs;
-import com.arlania.world.content.TrioBosses;
-import com.arlania.world.content.WellOfWealth;
+import com.arlania.world.content.*;
 import com.arlania.world.content.DropLog.DropLogEntry;
 import com.arlania.world.content.clan.ClanChatManager;
 import com.arlania.world.content.combat.strategy.impl.Nex;
@@ -301,6 +297,9 @@ public class NPCDrops {
 	public static void dropItems(Player p, NPC npc) {
 		if (npc.getLocation() == Location.WARRIORS_GUILD)
 			WarriorsGuild.handleDrop(p, npc);
+		if(npc == Abbadon.getCurrent()) {
+			Abbadon.handleDrop();
+		}
 		NPCDrops drops = NPCDrops.forId(npc.getId());
 		if (drops == null)
 			return;

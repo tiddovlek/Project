@@ -9,7 +9,7 @@ public class TeleportMinigames extends Teleporting {
 		TELEPORT_5(new String[] {"", ""}, new int[] {}),
 		TELEPORT_6(new String[] {"", ""}, new int[] {}),
 		TELEPORT_7(new String[] {"", ""}, new int[] {}),
-		TELEPORT_8(new String[] {"'s", ""}, new int[] {}),
+		TELEPORT_8(new String[] {"", ""}, new int[] {}),
 		TELEPORT_9(new String[] {"", ""}, new int[] {}),
 		TELEPORT_10(new String[] {"", ""}, new int[] {}),
 		TELEPORT_11(new String[] {" ", " "}, new int[] {}),

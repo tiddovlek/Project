@@ -60,6 +60,7 @@ import com.arlania.world.content.combat.strategy.impl.WildyWyrm;
 import com.arlania.world.content.combat.strategy.impl.zulrah.BlueZulrah;
 import com.arlania.world.content.combat.strategy.impl.zulrah.CrimsonZulrah;
 import com.arlania.world.content.combat.strategy.impl.zulrah.GreenZulrah;
+import com.arlania.world.content.global.GlobalBoss;
 
 
 public class CombatStrategies {
@@ -101,7 +102,6 @@ public class CombatStrategies {
 		STRATEGIES.put(27, defaultRangedStrategy);
 		
 		STRATEGIES.put(2745, new Jad());
-		STRATEGIES.put(6303, new Abbadon());
 		STRATEGIES.put(8528, new Nomad());
 		STRATEGIES.put(433, new Nomad());
 		STRATEGIES.put(8349, new TormentedDemon());
@@ -110,7 +110,7 @@ public class CombatStrategies {
 		STRATEGIES.put(4540, new BandosAvatar());
 		STRATEGIES.put(8133, new CorporealBeast());
 		STRATEGIES.put(13447, new Nex());
-		STRATEGIES.put(3334, new WildyWyrm());
+		STRATEGIES.put(6303, new Abbadon());
 		STRATEGIES.put(2896, new Spinolyp());
 		STRATEGIES.put(839, new MiniDire());
 		STRATEGIES.put(509, new Nazastarool());

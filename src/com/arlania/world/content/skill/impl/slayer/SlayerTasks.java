@@ -22,11 +22,13 @@ public enum SlayerTasks {
 	 */
 	BANDIT(SlayerMaster.DURADEL, 1880, "Deadly Assasin can be found in the Monster teleport.", 6500, new Position(3172, 2976)),
 	GODZILLA(SlayerMaster.DURADEL, 1677, "Godzilla can be found in the Monster teleport.", 6500, new Position(3560, 9948)),
+	BANDOS_AVATAR(SlayerMaster.DURADEL, 4540, "Bandos Avatar can be found in the boss teleport.", 6500, new Position(2867, 9946)),
 
 	/**
 	 * Hard tasks
 	 */
-	MONKEY_GUARD(SlayerMaster.KURADEL, 1459, "Donkey Kong can be found in the Monster Teleport", 14000, new Position(2795, 2775));
+	MONKEY_GUARD(SlayerMaster.KURADEL, 1459, "Donkey Kong can be found in the Monster Teleport", 14000, new Position(2795, 2775)),
+	ABBADON(SlayerMaster.KURADEL, 6303, "abbadon can be found in the Monster :Teleport", 14000, new Position(2576, 4849));
 
 	/**
 	 * Elite

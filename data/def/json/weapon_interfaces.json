@@ -1819,6 +1819,14 @@
     "item-id": 19467,
     "interface": "CROSSBOW"
   },
+  {    "hash": 21080,
+    "item-id": 21080,
+    "interface": "MINIGUN"
+  },
+  {    "hash": 21079,
+    "item-id": 21079,
+    "interface": "MINIGUN"
+  },
   {
 
 

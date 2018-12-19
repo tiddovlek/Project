@@ -1412,6 +1412,10 @@ public class Locations {
 			if (x >= 2700 && x <= 2730 && y >= 9800 && y <= 9829 || x >= 3080 && x <= 3120 && y >= 5520 && y <= 5550 || x >= 2850 && x <= 9920 && y >= 9920&& y <= 9980) {
 				return true;
 			}
+			if(x >= 2550 && x <= 2650 && y >= 4800 && y <= 4900) {
+				return true;
+
+			}
 			return gc.getLocation().multi;
 		}
 

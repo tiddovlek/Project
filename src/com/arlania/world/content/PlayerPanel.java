@@ -47,8 +47,8 @@ public class PlayerPanel {
 		
 		player.getPacketSender().sendString(counter++, "");
 		
+		player.getPacketSender().sendString(counter++, "");
 		player.getPacketSender().sendString(counter++, "@or3@-@whi@ Player Statistics");
-		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Loyalty Points:@yel@ "+player.getPointsHandler().getLoyaltyPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Prestige Points:@yel@ "+player.getPointsHandler().getPrestigePoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Trivia Points:@yel@ "+player.getPointsHandler().getTriviaPoints());
 		player.getPacketSender().sendString(counter++, LINE_START + "@or1@Voting Points:@yel@ "+player.getPointsHandler().getVotingPoints());

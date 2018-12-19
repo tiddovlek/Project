@@ -537,7 +537,7 @@ public class Tutorial {
 					p.getPacketSender().sendInterface(3559);
 					p.getAppearance().setCanChangeAppearance(true);
 					p.setPlayerLocked(false);
-					ClanChatManager.join(p, "help");
+					ClanChatManager.join(p, "viper");
 					World.sendMessage("<img=10> <col=6600CC>[NEW PLAYER]: "+p.getUsername()+" has logged into LiquidX for the first time!");
 
 					//reset interface?

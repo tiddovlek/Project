@@ -13,7 +13,9 @@ import com.arlania.model.definitions.ItemDefinition;
 import com.arlania.world.World;
 import com.arlania.world.content.combat.CombatBuilder;
 import com.arlania.world.content.combat.CombatFactory;
+import com.arlania.world.content.global.impl.Abbadon;
 import com.arlania.world.content.global.impl.BandosAva;
+import com.arlania.world.entity.impl.npc.NPC;
 import com.arlania.world.entity.impl.player.Player;
 
 /**
@@ -26,7 +28,7 @@ public final class GlobalBossHandler {
     private final static List<GlobalBoss> GLOBAL_BOSSES = new ArrayList<>();
 
     public static void init(){
-        register(new BandosAva());
+
     }
 
     static void register(GlobalBoss globalBoss){
@@ -37,13 +39,7 @@ public final class GlobalBossHandler {
 
         System.out.println("A "+globalBoss.getDefinition().getName()+" will spawn in "+cyclesTillRespawn+" cycles.");
 
-        TaskManager.submit(new Task(cyclesTillRespawn, false) {
-            @Override
-            protected void execute() {
-                globalBoss.spawn();
-                stop();
-            }
-        });
+        globalBoss.spawn();
     }
     static void deRegister(GlobalBoss globalBoss){
     	System.out.println("Deregistered global "+globalBoss.getDefinition().getName());
@@ -56,7 +52,7 @@ public final class GlobalBossHandler {
         deRegister(npc);
         register(npc.reincarnate());
     }
-    private static void handleDrop(GlobalBoss npc) {
+    private static void handleDrop(NPC npc) {
     	final int damageMapSize = npc.getCombatBuilder().getDamageMap().size();
 
         if(npc.getCombatBuilder().getDamageMap().size() == 0)
@@ -78,7 +74,7 @@ public final class GlobalBossHandler {
             }
 
             final Player player = entry.getKey();
-
+            player.sendMessage("GGGggggggggggggggg");
 
             killers.put(player, entry.getValue().getDamage());
         }
@@ -91,10 +87,10 @@ public final class GlobalBossHandler {
         for(Map.Entry<Player, Integer> entry : result) {
 
             final Player killer = entry.getKey();
-            int reward = npc.getReward();
+            int reward = 3;
             killer.giveItem(reward,1);
             killer.sendMessage("<shad=0>@bla@[@mag@Boss reward@bla@] You received 1x @mag@"+ ItemDefinition.forId(reward).getName()+" @bla@in your inventory!");
-            if(++count >= npc.maximumDrops())
+            if(++count >= 3)
                 break;
         }
     }

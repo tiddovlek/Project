@@ -4,6 +4,8 @@ import com.arlania.model.Locations;
 import com.arlania.model.Locations.Location;
 import com.arlania.world.content.combat.CombatFactory;
 import com.arlania.world.content.combat.strategy.impl.Nex;
+import com.arlania.world.content.global.GlobalBoss;
+import com.arlania.world.content.global.GlobalBossHandler;
 import com.arlania.world.content.skill.impl.dungeoneering.Dungeoneering;
 import com.arlania.world.entity.impl.player.Player;
 
@@ -50,7 +52,7 @@ public final class NpcAggression {
 			}
 
 			// Check if the entity is within distance.
-			if (Locations.goodDistance(npc.getPosition(), player.getPosition(), npc.getAggressionDistance()) || gwdMob) {
+			if (Locations.goodDistance(npc.getPosition(), player.getPosition(), npc.getAggressionDistance()) ||npc instanceof GlobalBoss || gwdMob) {
 		
 				if (player.getTolerance().elapsed() > (NPC_TOLERANCE_SECONDS * 1000) && player.getLocation() != Location.GODWARS_DUNGEON && player.getLocation() != Location.DAGANNOTH_DUNGEON && !dung) {
 					break;
@@ -60,7 +62,7 @@ public final class NpcAggression {
 
 				if(player.isTargeted()) {
 					if(!player.getCombatBuilder().isBeingAttacked()) {
-						player.setTargeted(false);
+						break;
 					} else if(!multi) {
 						break;
 					}
@@ -71,7 +73,7 @@ public final class NpcAggression {
 					continue;
 				}
 
-				if(Location.ignoreFollowDistance(npc) || gwdMob || npc.getDefaultPosition().getDistance(player.getPosition()) < 7 + npc.getMovementCoordinator().getCoordinator().getRadius() || dung) {
+				if(Location.ignoreFollowDistance(npc) || npc instanceof GlobalBoss || gwdMob || npc.getDefaultPosition().getDistance(player.getPosition()) < 7 + npc.getMovementCoordinator().getCoordinator().getRadius() || dung) {
 					if(CombatFactory.checkHook(npc, player)) {
 						player.setTargeted(true);
 						npc.getCombatBuilder().attack(player);
