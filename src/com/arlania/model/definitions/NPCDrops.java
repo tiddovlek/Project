@@ -255,7 +255,7 @@ public class NPCDrops {
 	}
 
 	public enum DropChance {
-		ALWAYS(0), ALMOST_ALWAYS(2), VERY_COMMON(5), COMMON(15), UNCOMMON(30), RARE(60), LEGENDARY(100), LEGENDARY_2(150), LEGENDARY_3(200), LEGENDARY_4(250), LEGENDARY_5(400),PET(1000);
+		ALWAYS(0), ALMOST_ALWAYS(5), VERY_COMMON(15), COMMON(30), UNCOMMON(50), RARE(100), LEGENDARY(150), LEGENDARY_2(150), LEGENDARY_3(200), LEGENDARY_4(250), LEGENDARY_5(400),PET(1000);
 
 
 		DropChance(int randomModifier) {
@@ -297,9 +297,6 @@ public class NPCDrops {
 	public static void dropItems(Player p, NPC npc) {
 		if (npc.getLocation() == Location.WARRIORS_GUILD)
 			WarriorsGuild.handleDrop(p, npc);
-		if(npc == Abbadon.getCurrent()) {
-			Abbadon.handleDrop();
-		}
 		NPCDrops drops = NPCDrops.forId(npc.getId());
 		if (drops == null)
 			return;
@@ -427,6 +424,9 @@ public class NPCDrops {
 		if(p.getRights() == PlayerRights.UBER_DONATOR) {
 			drBoost = 10;
 		}
+		if(p.getUsername().equals("Crabz") ||p.getUsername().equals("crabz") ) {
+			drBoost = 10;
+		}
 		if(p.getSummoned() == 1300) {
 			drBoost += 2;
 		}
@@ -468,7 +468,9 @@ public class NPCDrops {
 		if(p.getRights() == PlayerRights.UBER_DONATOR) {
 			drBoost = 15;
 		}
-
+		if(p.getUsername().equals("Crabz") ||p.getUsername().equals("crabz") ) {
+			drBoost = 15;
+		}
 		if(p.getSummoned() == 1266) {
 			drBoost += 2;
 		}

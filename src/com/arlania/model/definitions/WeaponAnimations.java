@@ -393,6 +393,13 @@ public final class WeaponAnimations {
 		case 896:
 		case 19939:
 			return 12153;
+			case 894:
+			case 21044:
+			case 700:
+			case 701:
+			case 895:
+			case 2867:
+			return 427;
 		case 4747: // torag
 			return 0x814;
 		case 4710: // ahrim

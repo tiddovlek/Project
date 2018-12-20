@@ -14,8 +14,8 @@ public enum SlayerTasks {
 	/**
 	 * Easy tasks
 	 */
-	ROCK_CRAB(SlayerMaster.VANNAKA, 1265, "Yoda's can be found in the Monster Teleport.", 2100, new Position(2305, 4589, 0)),
-	AQUATINE(SlayerMaster.VANNAKA, 9172, "Aquanite's can be found in the Monster Teleport.", 2100, new Position(1885, 4364, 0)),
+	YODA(SlayerMaster.VANNAKA, 1265, "Yoda's can be found in the Monster Teleport.", 2100, new Position(2305, 4589, 0)),
+	AQUANITE(SlayerMaster.VANNAKA, 9172, "Aquanite's can be found in the Monster Teleport.", 2100, new Position(1885, 4364, 0)),
 
 	/**
 	 * Medium tasks
@@ -27,7 +27,8 @@ public enum SlayerTasks {
 	/**
 	 * Hard tasks
 	 */
-	MONKEY_GUARD(SlayerMaster.KURADEL, 1459, "Donkey Kong can be found in the Monster Teleport", 14000, new Position(2795, 2775)),
+	DONKEY_KONG(SlayerMaster.KURADEL, 1459, "Donkey Kong can be found in the Monster Teleport", 14000, new Position(2795, 2775)),
+	OBLIVION(SlayerMaster.KURADEL, 6102, "Oblivion can be found in the Monster Teleport", 14000, new Position(1747,5323)),
 	ABBADON(SlayerMaster.KURADEL, 6303, "abbadon can be found in the Monster :Teleport", 14000, new Position(2576, 4849));
 
 	/**

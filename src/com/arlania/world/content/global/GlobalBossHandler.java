@@ -13,8 +13,6 @@ import com.arlania.model.definitions.ItemDefinition;
 import com.arlania.world.World;
 import com.arlania.world.content.combat.CombatBuilder;
 import com.arlania.world.content.combat.CombatFactory;
-import com.arlania.world.content.global.impl.Abbadon;
-import com.arlania.world.content.global.impl.BandosAva;
 import com.arlania.world.entity.impl.npc.NPC;
 import com.arlania.world.entity.impl.player.Player;
 

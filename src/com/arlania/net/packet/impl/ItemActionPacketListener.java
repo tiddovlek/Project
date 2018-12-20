@@ -536,10 +536,10 @@ public class ItemActionPacketListener implements PacketListener {
 				player.getInventory().delete(7956, 1);
 			}
 			
-			int[] rewards = 		{537, 989, 2572, 6585, 13047, 4151, 989, 19055, 15220, 15020, 15019, 15018, 11730, 11283, 11235, 15486, 15241, 15332, 13879, 13883, 11230, 11230, 11230, 11230, 15243, 15243, 15243, 15243, 11212, 11212, 11212, 11212, 2, 2, 2, 2, 565, 560, 995, 995, 995, 2435, 2435, 15273, 15273, 15273, 15273, 1514, 1514, 384, 384, 384, 454, 452, 1631, 1619, 3025, 15332, 386};
-			int[] rewardsAmount = 	{25, 5, 1, 1, 1, 1, 10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 20, 20, 65, 50, 30, 15, 5, 10, 15, 20, 20, 20, 20, 20, 100, 250, 500, 1000, 2500, 5000, 5000000, 5000000, 5000000, 10, 20, 100, 50, 25, 250, 100, 250, 100, 250, 1000, 250, 10, 1, 1, 10, 1, 150};
+			int[] rewards = 		{5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022,5022};
+			int[] rewardsAmount = 	{100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,100,200,100,200,300,200,300};
 			int rewardPos = Misc.getRandom(rewards.length-1);
-			player.getInventory().add(rewards[rewardPos], (int)((rewardsAmount[rewardPos]*0.5) + (Misc.getRandom(rewardsAmount[rewardPos]))));
+			player.getInventory().add(rewards[rewardPos], ((Misc.random(rewardsAmount[rewardPos])) + (Misc.getRandom(rewardsAmount[rewardPos]))));
 			break;
 			
 			//Donation Box
@@ -750,6 +750,34 @@ public class ItemActionPacketListener implements PacketListener {
 				player.getInventory().delete(7100, 1);
 				player.getInventory().add(rewards3[rewardGrade3][rewardPos], 1).refreshItems();
 					World.sendMessage("<shad=0>@bla@[@cya@Pet box@bla@] @cya@"+player.getUsername()+"@bla@ Has just received a @cya@ "+ItemDefinition.forId(rewards3[rewardGrade3][rewardPos]).getName()+" @bla@!");
+				break;
+			case 21045:
+
+				int rewards4[][] = {
+						{701,894}, //Uncommon, 0
+						{895,700,906,907,908}, //Rare, 1
+						{896,21044,2867}
+				};
+				 numGen3 = Math.random();
+				/** Chances
+				 *  50% chance of Common Items - cheap gear, high-end consumables
+				 *  40% chance of Uncommon Items - various high-end coin-bought gear
+				 *  10% chance of Rare Items - Highest-end coin-bought gear, some voting-point/pk-point equipment
+				 */
+				random3 = Misc.random(99)+1;
+				if(random3 > 50) {
+					rewardGrade3 = 0;
+				} else if(random3 > 25) {
+					rewardGrade3 = 1;
+				} else {
+					rewardGrade3 = 2;
+				}
+
+
+				rewardPos = RandomUtility.getRandom(rewards4[rewardGrade3].length-1);
+				player.getInventory().delete(21045, 1);
+				player.getInventory().add(rewards4[rewardGrade3][rewardPos], 1).refreshItems();
+					World.sendMessage("<shad=0>@bla@[@cya@Weaponbox box@bla@] @cya@"+player.getUsername()+"@bla@ Has just received a @cya@ "+ItemDefinition.forId(rewards4[rewardGrade3][rewardPos]).getName()+" @bla@!");
 				break;
 		case 15501:
 			int superiorRewards[][] = {

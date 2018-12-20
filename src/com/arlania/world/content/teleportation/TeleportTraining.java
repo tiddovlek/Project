@@ -6,18 +6,19 @@ public class TeleportTraining extends Teleporting {
 	
 	public static enum Training {
 		TELEPORT_1(new String[] {"Yoda",""}, new int[] {2305, 4589, 0}, 0),
-		TELEPORT_2(new String[] {"Aquanite", ""}, new int[] {1885,4364,0},100),
-		TELEPORT_3(new String[] {"Godzilla", ""}, new int[] {3561, 9948,0},250),
-		TELEPORT_4(new String[] {"Deadly", "Assassin"}, new int[] {3169, 2982, 0},500),
-		TELEPORT_5(new String[] {"Donkey", "Kong"}, new int[] {2793, 2773, 0},1000),
-		TELEPORT_6(new String[] {"Oblivion", ""}, new int[] {1747,5323,0},1250),
-		TELEPORT_7(new String[] {"", ""}, new int[] {},0),
+		TELEPORT_2(new String[] {"Aquanite", ""}, new int[] {1885,4364,0},50),
+		TELEPORT_3(new String[] {"Artillery", ""}, new int[] {1825,5165,2},0),
+		TELEPORT_4(new String[] {"Godzilla", ""}, new int[] {3561, 9948,0},250),
+		TELEPORT_5(new String[] {"Deadly", "Assassin"}, new int[] {3169, 2982, 0},500),
+		TELEPORT_6(new String[] {"Donkey", "Kong"}, new int[] {2793, 2773, 0},1000),
+		TELEPORT_7(new String[] {"Oblivion", ""}, new int[] {1747,5323,0},1250),
 		TELEPORT_8(new String[] {"", ""}, new int[] {},0),
 		TELEPORT_9(new String[] {"", ""}, new int[] {},0),
-
 		TELEPORT_10(new String[] {"", ""}, new int[] {},0),
+
 		TELEPORT_11(new String[] {"", ""}, new int[] {},0),
-		TELEPORT_12(new String[] {"", ""}, new int[] {},0);
+		TELEPORT_12(new String[] {"", ""}, new int[] {},0),
+		TELEPORT_13(new String[] {"", ""}, new int[] {},0);
 		
 		/**
 		 * Initializing the teleport names.

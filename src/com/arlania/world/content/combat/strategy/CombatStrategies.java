@@ -98,6 +98,7 @@ public class CombatStrategies {
 		STRATEGIES.put(6220, defaultRangedStrategy);
 		STRATEGIES.put(6256, defaultRangedStrategy);
 		STRATEGIES.put(6276, defaultRangedStrategy);
+		STRATEGIES.put(2437, defaultRangedStrategy);
 		STRATEGIES.put(6252, defaultRangedStrategy);
 		STRATEGIES.put(27, defaultRangedStrategy);
 		

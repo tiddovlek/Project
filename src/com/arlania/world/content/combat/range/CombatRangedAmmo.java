@@ -52,7 +52,8 @@ public class CombatRangedAmmo {
                 1238, 229, 30, 25, 10, 45, 37), ADAMANT_DART(new int[] { 810 }, 1239, 230, 30, 25, 15, 45,
                 37), RUNE_DART(new int[] { 811 }, 1240, 231, 30, 25, 20, 45, 37), DRAGON_DART(
                 new int[] { 11230 }, 1123, 226, 30, 25, 25, 45,
-                37), BULLETS(new int[] { 11609 }, -1, 27, 3, 33, 70, 43, 31),
+                37),
+        BULLETS(new int[] { -1 }, -1, 27, 3, 33, 70, 43, 31),
 
         BRONZE_KNIFE(new int[] { 864, 870, 5654 }, 219, 212, 3, 33, 8, 45, 37), IRON_KNIFE(new int[] { 863, 871, 5655 },
                 220, 213, 3, 33, 12, 45,
@@ -86,6 +87,7 @@ public class CombatRangedAmmo {
 
         THUNDER_SHOT(new int[] { -3 }, 2345, 554, 3, 33, 70, 43, 31,83),
         BLOOD_SHOT(new int[] { -3 }, 2345, 554, 3, 33, 70, 43, 31,83),
+        PURPLE_BULLETS(new int[] { -3 }, 1847, 1846, 3, 33, 70, 43, 31),
         LAVA_BALL(new int[] { -2 }, 1173, 1617, 3, 33, 70, 43, 31),//, 197);
         ICE_BALL(new int[] { -2 }, 1284, 1209, 3, 33, 70, 43, 31);//, 197);
 
@@ -389,6 +391,9 @@ public class CombatRangedAmmo {
 
         DUEL(new int[] { 21080 }, new AmmunitionData[] {AmmunitionData.THUNDER_SHOT},
                 RangedWeaponType.CROSSBOW),
+        AK(new int[] { 894,21044,700,701,895,896,2867 }, new AmmunitionData[] {AmmunitionData.BULLETS},
+                RangedWeaponType.CROSSBOW),
+
         SNIPER(new int[] { 21079 }, new AmmunitionData[] {AmmunitionData.BLOOD_SHOT},
                 RangedWeaponType.CROSSBOW),
 
@@ -416,6 +421,8 @@ public class CombatRangedAmmo {
                     return AmmunitionData.THUNDER_SHOT;
                 }        if (p.getRangedWeaponData() == RangedWeaponData.DUEL) {
                     return AmmunitionData.THUNDER_SHOT;
+                }      if (p.getRangedWeaponData() == RangedWeaponData.AK) {
+                    return AmmunitionData.BULLETS;
                 }  if (p.getRangedWeaponData() == RangedWeaponData.SNIPER) {
                     return AmmunitionData.BLOOD_SHOT;
                 }

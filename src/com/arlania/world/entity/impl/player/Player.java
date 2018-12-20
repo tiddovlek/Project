@@ -322,6 +322,8 @@ private int npcKills;
         }
         if (weaponId == 19939) {
             speed = 3;
+        }  if (weaponId == 894 || weaponId ==21044 || weaponId ==700 ||weaponId ==701 ||weaponId ==895 ||weaponId == 2867) {
+            speed = 3;
         }
         if (weaponId == 21080) {
             speed = 2;
@@ -343,6 +345,9 @@ private int npcKills;
 
         } else if (weaponId != 6522 && weaponId != 15241 && (fightType == FightType.SHORTBOW_RAPID || fightType == FightType.DART_RAPID || fightType == FightType.KNIFE_RAPID || fightType == FightType.THROWNAXE_RAPID || fightType == FightType.JAVELIN_RAPID) || weaponId == 11730) {
             speed -= 2;
+        }
+        if(weaponId ==896) {
+            return 3;
         }
         return speed;
         //	return DesolaceFormulas.getAttackDelay(this);

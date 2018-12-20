@@ -1,5 +1,5 @@
 {
-  "total-play-time-ms": 6953841,
+  "total-play-time-ms": 18738838,
   "username": "Viper",
   "password": "tiddotjevlek1997",
   "email": "null",
@@ -20,13 +20,13 @@
   "donated": 0,
   "pvm-rank": "BRONZE",
   "minutes-bonus-exp": -1,
-  "total-gained-exp": 528319353,
+  "total-gained-exp": 601924408,
   "prestige-points": 0,
   "achievement-points": 5,
   "dung-tokens": 0,
   "commendations": 0,
-  "loyalty-points": 1545,
-  "total-loyalty-points": 1547.0,
+  "loyalty-points": 4583,
+  "total-loyalty-points": 4585.0,
   "voting-points": 0,
   "slayer-points": 0,
   "pk-points": 0,
@@ -51,8 +51,8 @@
   "auto-retaliate": false,
   "xp-locked": false,
   "veng-cast": false,
-  "last-veng": 1545235045037,
-  "fight-type": "UNARMED_PUNCH",
+  "last-veng": 73746274,
+  "fight-type": "UNARMED_KICK",
   "sol-effect": 0,
   "skull-timer": 0,
   "accept-aid": false,
@@ -76,7 +76,7 @@
   "summon-npc": -1,
   "summon-death": -1,
   "process-farming": false,
-  "clanchat": "null",
+  "clanchat": "Viper",
   "autocast": false,
   "autocast-spell": -1,
   "dfs-charges": 0,
@@ -198,9 +198,9 @@
     "level": [
       99,
       1,
-      1,
+      99,
       990,
-      84,
+      97,
       10,
       1,
       1,
@@ -225,9 +225,9 @@
     "maxLevel": [
       99,
       1,
-      1,
+      99,
       990,
-      84,
+      97,
       10,
       1,
       1,
@@ -250,11 +250,11 @@
       1
     ],
     "experience": [
-      318674994,
+      341981120,
       0,
-      0,
-      206524282,
-      3121261,
+      13272321,
+      234919492,
+      11752659,
       0,
       0,
       0,
@@ -279,53 +279,53 @@
   },
   "inventory": [
     {
-      "id": -1,
-      "amount": 0,
+      "id": 701,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 896,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 6199,
+      "amount": 6,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 908,
+      "amount": 2,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21069,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 21045,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 894,
+      "amount": 4,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 701,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 907,
+      "amount": 1,
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
+      "id": 701,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -421,12 +421,27 @@
   ],
   "equipment": [
     {
+      "id": 906,
+      "amount": 2,
+      "slot": 0
+    },
+    {
       "id": -1,
       "amount": 0,
       "slot": 0
     },
     {
-      "id": 11318,
+      "id": -1,
+      "amount": 0,
+      "slot": 0
+    },
+    {
+      "id": 21044,
+      "amount": 1,
+      "slot": 0
+    },
+    {
+      "id": 907,
       "amount": 1,
       "slot": 0
     },
@@ -441,23 +456,8 @@
       "slot": 0
     },
     {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
-      "slot": 0
-    },
-    {
-      "id": -1,
-      "amount": 0,
+      "id": 908,
+      "amount": 1,
       "slot": 0
     },
     {
@@ -548,6 +548,27 @@
       "npcId": 6303,
       "npcName": "Abbadon",
       "amount": 19,
+      "boss": true
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 4392,
+      "npcName": "Zombie",
+      "amount": 1,
+      "boss": false
+    },
+    {
+      "runningTotal": 3,
+      "npcId": 1265,
+      "npcName": "Yoda",
+      "amount": 3,
+      "boss": true
+    },
+    {
+      "runningTotal": 1,
+      "npcId": 2437,
+      "npcName": "LiquidX Artillery",
+      "amount": 1,
       "boss": true
     }
   ],
@@ -911,6 +932,111 @@
       "item": 21006,
       "amount": 1,
       "rareDrop": false
+    },
+    {
+      "item": 21004,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21003,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 2095,
+      "amount": 6,
+      "rareDrop": false
+    },
+    {
+      "item": 21050,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21051,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21052,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21053,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21054,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21031,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21033,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21030,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21032,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21002,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 1153,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 2572,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 1115,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 1067,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21011,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21012,
+      "amount": 6,
+      "rareDrop": true
+    },
+    {
+      "item": 21045,
+      "amount": 2,
+      "rareDrop": false
+    },
+    {
+      "item": 6199,
+      "amount": 6,
+      "rareDrop": false
     }
   ],
   "achievements-completion": [
@@ -1038,7 +1164,7 @@
     0,
     0,
     29338,
-    17785,
+    66967,
     0,
     0,
     0,
@@ -1059,14 +1185,14 @@
     0,
     0,
     0,
-    2052657,
-    17785,
+    2288267,
+    66967,
     0,
     0,
     0,
     0,
-    19,
-    19,
+    24,
+    23,
     0,
     0
   ],

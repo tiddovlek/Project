@@ -4,7 +4,7 @@ public class TeleportBosses extends Teleporting  {
 
 	public static enum Bosses {
 		TELEPORT_1(new String[] {"Bandos", "Avatar"}, new int[] {2867,9946,0}),
-		TELEPORT_2(new String[] {"Abbadon", ""}, new int[] {2576,4849,0}),
+		TELEPORT_2(new String[] {"Abbadon", ""}, new int[] {2516,5173,0}),
 		TELEPORT_3(new String[] {"", ""}, new int[] {}),
 		TELEPORT_4(new String[] {"", ""}, new int[] {}),
 		TELEPORT_5(new String[] {"", ""}, new int[] {}),

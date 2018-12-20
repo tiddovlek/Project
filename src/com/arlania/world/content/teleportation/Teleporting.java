@@ -60,7 +60,7 @@ public class Teleporting {
 					player.sendMessage("You have "+npckills+" Npc kills!");
 					return;
 				}
-				TeleportHandler.teleportPlayer(player, new Position(t.getCoordinates()[0], t.getCoordinates()[1]), player.getSpellbook().getTeleportType());
+				TeleportHandler.teleportPlayer(player, new Position(t.getCoordinates()[0], t.getCoordinates()[1], t.getCoordinates()[2]), player.getSpellbook().getTeleportType());
 			}
 		}
 	}
