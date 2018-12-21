@@ -477,7 +477,7 @@ public class NPCDrops {
         if(p.getUsername().equals("infa") ||p.getUsername().equals("Infa") ) {
             drBoost += 23;
         }
-		if(p.getSummoned() == 1266) {
+		if(p.getSummoned() > 1) {
 			drBoost += 2;
 		}
 		if (ringOfWealth) { //if the chance from the table is greater or equal to 60, and player is wearing ring of wealth

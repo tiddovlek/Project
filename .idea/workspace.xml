@@ -28,47 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayerSaving.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/PlayerSaving.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="145" column="62" selection-start-line="145" selection-start-column="62" selection-end-line="145" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonClickPacketListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/ButtonClickPacketListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="364" column="26" selection-start-line="364" selection-start-column="26" selection-end-line="364" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemBinding.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/dungeoneering/ItemBinding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="166190" column="16" selection-start-line="166190" selection-start-column="6" selection-end-line="166190" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NPCDrops.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+            <state relative-caret-position="195">
+              <caret line="732" column="62" lean-forward="true" selection-start-line="732" selection-start-column="62" selection-end-line="732" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombatRangedAmmo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/range/CombatRangedAmmo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="400" column="34" selection-start-line="400" selection-start-column="29" selection-end-line="400" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultRangedCombatStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultRangedCombatStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="312" column="56" selection-start-line="312" selection-start-column="56" selection-end-line="312" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeaponAnimations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/WeaponAnimations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="208" column="23" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -91,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="world_npcs.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="world_npcs.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/def/json/world_npcs.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="1751" column="18" lean-forward="true" selection-start-line="1751" selection-start-column="18" selection-end-line="1751" selection-end-column="18" />
+            <state relative-caret-position="260">
+              <caret line="1752" column="10" lean-forward="true" selection-start-line="1752" selection-start-column="10" selection-end-line="1752" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -103,8 +97,8 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="1837" column="33" lean-forward="true" selection-start-line="1837" selection-start-column="33" selection-end-line="1837" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="335" column="29" selection-start-line="335" selection-start-column="24" selection-end-line="335" selection-end-column="29" />
               <folding>
                 <element signature="e#51861#51862#0" expanded="true" />
                 <element signature="e#51903#51904#0" expanded="true" />
@@ -115,11 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DropItemPacketListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/DropItemPacketListener.java">
+      <file leaf-file-name="CombatHookTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="216">
+              <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="9728" column="19" lean-forward="true" selection-start-line="9728" selection-start-column="19" selection-end-line="9728" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -135,14 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>6199</find>
-      <find>2867</find>
-      <find>6303</find>
-      <find>&quot;viper&quot;</find>
-      <find>p.getusername</find>
-      <find>abbadon</find>
-      <find>abb</find>
-      <find>&quot;abbadon</find>
       <find>&quot;bandos</find>
       <find>&quot;bandos&quot;</find>
       <find>dad</find>
@@ -164,7 +159,15 @@
       <find>bosspets</find>
       <find>crabz</find>
       <find>untredea</find>
+      <find>3215</find>
+      <find>droprate</find>
+      <find>infa</find>
       <find>untradeable</find>
+      <find>21082</find>
+      <find>fire</find>
+      <find>896</find>
+      <find>speed = 2</find>
+      <find>duo laser</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/lib</dir>
@@ -195,18 +198,12 @@
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/slayer/SlayerTasks.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportTraining.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/Teleporting.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/model/definitions/WeaponAnimations.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/net/packet/impl/ItemActionPacketListener.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultRangedCombatStrategy.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/range/CombatRangedAmmo.java" />
         <option value="$PROJECT_DIR$/data/def/json/npc_definitions.json" />
         <option value="$PROJECT_DIR$/data/def/json/drops.json" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBossHandler.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/Abbadon.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/teleportation/TeleportBosses.java" />
-        <option value="$PROJECT_DIR$/data/def/txt/items.txt" />
         <option value="$PROJECT_DIR$/bin/com/arlania/world/content/minigames/MinigameAttributes.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/minigames/MinigameAttributes.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/minigames/MinigameManager.java" />
@@ -235,9 +232,15 @@
         <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/npc/NpcAggression.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/engine/task/impl/NPCDeathTask.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java" />
         <option value="$PROJECT_DIR$/src/com/arlania/world/content/Trading.java" />
         <option value="$PROJECT_DIR$/data/def/json/world_npcs.json" />
+        <option value="$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/range/CombatRangedAmmo.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultRangedCombatStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/model/definitions/WeaponAnimations.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java" />
+        <option value="$PROJECT_DIR$/data/def/txt/items.txt" />
       </list>
     </option>
   </component>
@@ -540,7 +543,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17851374" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -586,34 +589,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/SpawnLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/global/GlobalBoss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/def/json/drops.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="8455" column="19" lean-forward="true" selection-start-line="8455" selection-start-column="19" selection-end-line="8455" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/Abbadon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/saves/characters/Viper.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -968,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="166190" column="16" selection-start-line="166190" selection-start-column="6" selection-end-line="166190" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/net/packet/impl/DropItemPacketListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -996,26 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1837" column="33" lean-forward="true" selection-start-line="1837" selection-start-column="33" selection-end-line="1837" selection-end-column="33" />
-          <folding>
-            <element signature="e#51861#51862#0" expanded="true" />
-            <element signature="e#51903#51904#0" expanded="true" />
-            <element signature="e#51971#51972#0" expanded="true" />
-            <element signature="e#52033#52034#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/skill/impl/summoning/BossPets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -1032,8 +980,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/def/json/world_npcs.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1751" column="18" lean-forward="true" selection-start-line="1751" selection-start-column="18" selection-end-line="1751" selection-end-column="18" />
+        <state relative-caret-position="260">
+          <caret line="1752" column="10" lean-forward="true" selection-start-line="1752" selection-start-column="10" selection-end-line="1752" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/NPCDrops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="732" column="62" lean-forward="true" selection-start-line="732" selection-start-column="62" selection-end-line="732" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/range/CombatRangedAmmo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="400" column="34" selection-start-line="400" selection-start-column="29" selection-end-line="400" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/strategy/impl/DefaultRangedCombatStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="312" column="56" selection-start-line="312" selection-start-column="56" selection-end-line="312" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/model/definitions/WeaponAnimations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="208" column="23" selection-start-line="208" selection-start-column="23" selection-end-line="208" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/entity/impl/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="335" column="29" selection-start-line="335" selection-start-column="24" selection-end-line="335" selection-end-column="29" />
+          <folding>
+            <element signature="e#51861#51862#0" expanded="true" />
+            <element signature="e#51903#51904#0" expanded="true" />
+            <element signature="e#51971#51972#0" expanded="true" />
+            <element signature="e#52033#52034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/arlania/world/content/combat/CombatHookTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="174" column="39" lean-forward="true" selection-start-line="174" selection-start-column="39" selection-end-line="174" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/def/txt/items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="9728" column="19" lean-forward="true" selection-start-line="9728" selection-start-column="19" selection-end-line="9728" selection-end-column="19" />
         </state>
       </provider>
     </entry>

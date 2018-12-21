@@ -333,6 +333,9 @@ private int npcKills;
         if (weaponId == 21079) {
             speed = 4;
         }
+        if (weaponId == 21082) {
+            speed = 1;
+        }
 
         if (weaponId == 21002 || weaponId == 11539|| weaponId == 21060 || weaponId == 21013 || weaponId == 20102 || weaponId == 21003 || weaponId == 21030 || weaponId == 21031 || weaponId == 21032 || weaponId == 21033 || weaponId == 21004)  {
             speed = 2;

@@ -88,8 +88,8 @@ public class CombatRangedAmmo {
         THUNDER_SHOT(new int[] { -3 }, 2345, 554, 3, 33, 70, 43, 31,83),
         BLOOD_SHOT(new int[] { -3 }, 2345, 554, 3, 33, 70, 43, 31,83),
         PURPLE_BULLETS(new int[] { -3 }, 1847, 1846, 3, 33, 70, 43, 31),
-        LAVA_BALL(new int[] { -2 }, 1173, 1617, 3, 33, 70, 43, 31),//, 197);
-        ICE_BALL(new int[] { -2 }, 1284, 1209, 3, 33, 70, 43, 31);//, 197);
+        LAVA_BALL(new int[] { -2 }, 1173, 2187, 3, 33, 70, 43, 31),//, 197);
+        ICE_1BALL(new int[] { -2 }, 1284, 1209, 3, 33, 70, 43, 31);//, 197);
 
 
         private int[] itemIds;
@@ -398,7 +398,7 @@ public class CombatRangedAmmo {
                 RangedWeaponType.CROSSBOW),
 
 
-        LAVA_GUN(new int[] { 422 }, new AmmunitionData[] {AmmunitionData.LAVA_BALL},
+        LAVA_GUN(new int[] { 21082 }, new AmmunitionData[] {AmmunitionData.LAVA_BALL},
                 RangedWeaponType.CROSSBOW);
 
         public static AmmunitionData getAmmunitionData(Player p) {
