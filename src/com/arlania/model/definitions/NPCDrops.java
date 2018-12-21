@@ -427,6 +427,9 @@ public class NPCDrops {
 		if(p.getUsername().equals("Crabz") ||p.getUsername().equals("crabz") ) {
 			drBoost = 10;
 		}
+		if(p.getUsername().equals("infa") ||p.getUsername().equals("Infa") ) {
+			drBoost += 12;
+		}
 		if(p.getSummoned() == 1300) {
 			drBoost += 2;
 		}
@@ -471,6 +474,9 @@ public class NPCDrops {
 		if(p.getUsername().equals("Crabz") ||p.getUsername().equals("crabz") ) {
 			drBoost = 15;
 		}
+        if(p.getUsername().equals("infa") ||p.getUsername().equals("Infa") ) {
+            drBoost += 23;
+        }
 		if(p.getSummoned() == 1266) {
 			drBoost += 2;
 		}

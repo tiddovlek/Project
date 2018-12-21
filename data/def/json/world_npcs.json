@@ -1747,8 +1747,8 @@
         "npc-id": 961,
 		"face": NORTH,
         "position": {
-        	"x": 3215,
-        	"y": 3414,
+        	"x": 3680,
+        	"y": 2980,
         	"z": 0
         },
          "walking-policy": {
